@@ -1,0 +1,6 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+kr1.bust-cream.me	TRUE	/	FALSE	1999999999	previous_uniq	1668055205
+kr1.bust-cream.me	TRUE	/	FALSE	1999999999	adc_6304116725	1
+kr1.bust-cream.me	TRUE	/	FALSE	1999999999	counted_hk2_1668055205_qaMVKvBj0P	1
+
