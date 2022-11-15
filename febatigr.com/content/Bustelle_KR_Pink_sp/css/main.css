@@ -1,0 +1,6129 @@
+@import "https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700|Open+Sans:300,300i,400,400i,700,700i&amp;subset=cyrillic,cyrillic-ext,latin-ext";
+@import "https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i&amp;subset=cyrillic,cyrillic-ext,latin-ext";
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+b,
+strong {
+  font-weight: 700;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.text_left {
+  text-align: left;
+}
+
+.text_right {
+  text-align: right;
+}
+
+.text_center {
+  text-align: center;
+}
+
+.overflow {
+  overflow: hidden;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: black;
+}
+
+.row {
+  position: relative;
+
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  width: 980px;
+  margin: 0 auto;
+}
+
+.section_bg {
+  margin-top: 100px;
+
+  background: url("../../../../viposidn.com/content/Bustelle_KR_Pink_sp/img/main_bg.jpg") no-repeat left top;
+  -webkit-background-size: cover;
+          background-size: cover;
+}
+
+.title {
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+.title strong,
+.title span {
+  font-family: "Open Sans", sans-serif;
+}
+
+section {
+  position: relative;
+}
+
+.section1 {
+  padding-bottom: 70px;
+
+  background: url("../../../../viposidn.com/content/Bustelle_KR_Pink_sp/img/main_bg.jpg") no-repeat top center;
+  -webkit-background-size: cover;
+          background-size: cover;
+}
+
+.logo_text {
+  display: inline-block;
+  min-width: 316px;
+  margin: 10px;
+  padding: 5px;
+
+  font-weight: 700;
+  font-size: 115px;
+  line-height: 1;
+  font-family: "none", sans-serif;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: -6px;
+  text-shadow: 0 0 10px #000000;
+}
+
+.logo_text b {
+  letter-spacing: -10px;
+}
+
+.olive {
+  margin: 0 20px 10px;
+}
+
+.plank_right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+
+  width: auto;
+}
+
+.section1_top_plank {
+  left: 55%;
+
+  min-height: 97px;
+  padding: 10px;
+
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+
+  background-color: #df2245;
+  -webkit-border-radius: 60px 0 0 60px;
+     -moz-border-radius: 60px 0 0 60px;
+          border-radius: 60px 0 0 60px;
+  box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.7);
+}
+
+.round_leaves {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+
+  margin: auto 0;
+}
+
+.section1_top_plank_text {
+  max-width: 220px;
+  min-height: 80px;
+  margin-left: 90px;
+  padding-top: 10px;
+}
+
+.effect_list {
+  position: relative;
+  z-index: 2;
+
+  margin-left: 70px;
+}
+
+.effect_item:nth-child(1) {
+  margin-left: 0;
+}
+
+.effect_item:nth-child(2) {
+  margin-left: 50px;
+}
+
+.effect_item:nth-child(3) {
+  margin-left: 110px;
+}
+
+.effect_item {
+  min-height: 72px;
+  padding-bottom: 5px;
+}
+
+.effect_item_icon {
+  float: left;
+  margin-right: 10px;
+}
+
+.effect_item_text {
+  display: inline-block;
+  max-width: 510px;
+  padding-top: 20px;
+
+  font-size: 25px;
+  line-height: 1;
+  color: #3f0100;
+}
+
+.effect_item_text b {
+  color: #3f0100;
+}
+
+.effect_item_text strong {
+  color: #f7921c;
+  text-transform: uppercase;
+}
+
+.effect_plank {
+  position: relative;
+
+  display: inline-block;
+  padding: 0 65px 45px 55px;
+
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 1;
+  color: white;
+
+  background: url("../../../../viposidn.com/content/Bustelle_KR_Pink_sp/img/effect_bust.png") no-repeat top left;
+  -webkit-background-size: 100%;
+          background-size: 100%;
+}
+
+.effect_plank strong {
+  font-weight: 400;
+  color: #f30000;
+}
+
+.line_1,
+.line_2,
+.line_3 {
+  content: "";
+  position: absolute;
+  z-index: 1;
+
+  display: block;
+  height: 1px;
+
+  -webkit-transform: rotate(53deg);
+     -moz-transform: rotate(53deg);
+      -ms-transform: rotate(53deg);
+       -o-transform: rotate(53deg);
+          transform: rotate(53deg);
+}
+
+.line_1,
+.line_3 {
+  top: 0;
+  left: -349px;
+
+  width: 700px;
+
+  background: #b1a915;
+  background:    -moz-linear-gradient(left, rgba(177, 169, 21, 0) 0%, rgba(177, 169, 21, 0.8) 10%, rgba(177, 169, 21, 1) 15%, rgba(177, 169, 21, 1) 20%, rgba(177, 169, 21, 1) 50%, rgba(177, 169, 21, 1) 83%, rgba(177, 169, 21, 1) 85%, rgba(177, 169, 21, 0.8) 90%, rgba(177, 169, 21, 0) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, rgba(177, 169, 21, 0) 0%, rgba(177, 169, 21, 0.8) 10%, rgba(177, 169, 21, 1) 15%, rgba(177, 169, 21, 1) 20%, rgba(177, 169, 21, 1) 50%, rgba(177, 169, 21, 1) 83%, rgba(177, 169, 21, 1) 85%, rgba(177, 169, 21, 0.8) 90%, rgba(177, 169, 21, 0) 100%); /* Chrome10-25,Safari5.1-6 */
+  background:         linear-gradient(to right, rgba(177, 169, 21, 0) 0%, rgba(177, 169, 21, 0.8) 10%, rgba(177, 169, 21, 1) 15%, rgba(177, 169, 21, 1) 20%, rgba(177, 169, 21, 1) 50%, rgba(177, 169, 21, 1) 83%, rgba(177, 169, 21, 1) 85%, rgba(177, 169, 21, 0.8) 90%, rgba(177, 169, 21, 0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00b1a915', endColorstr='#00b1a915', GradientType=1); /* IE6-9 */
+}
+
+.line_3 {
+  top: 180px;
+  left: 50px;
+
+  width: 200px;
+}
+
+.line_2 {
+  top: 0;
+  left: -510px;
+
+  width: 700px;
+
+  background: #df2245;
+  background:    -moz-linear-gradient(left, rgba(223, 34, 69, 0) 0%, rgba(223, 34, 69, 0.8) 20%, rgba(223, 34, 69, 1) 30%, rgba(223, 34, 69, 1) 70%, rgba(223, 34, 69, 0.8) 80%, rgba(223, 34, 69, 0) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, rgba(223, 34, 69, 0) 0%, rgba(223, 34, 69, 0.8) 20%, rgba(223, 34, 69, 1) 30%, rgba(223, 34, 69, 1) 70%, rgba(223, 34, 69, 0.8) 80%, rgba(223, 34, 69, 0) 100%); /* Chrome10-25,Safari5.1-6 */
+  background:         linear-gradient(to right, rgba(223, 34, 69, 0) 0%, rgba(223, 34, 69, 0.8) 20%, rgba(223, 34, 69, 1) 30%, rgba(223, 34, 69, 1) 70%, rgba(223, 34, 69, 0.8) 80%, rgba(223, 34, 69, 0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00df2245', endColorstr='#00df2245', GradientType=1); /* IE6-9 */
+}
+
+.header_content_title {
+  margin: 10px auto 25px;
+
+  text-align: center;
+  font-weight: 300;
+  font-size: 76px;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.header_content_title strong {
+  font-weight: 700;
+  color: black;
+}
+
+.header_footer {
+  margin-left: 38%;
+
+  -webkit-transition: margin-left 0.5s;
+     -moz-transition: margin-left 0.5s;
+      -ms-transition: margin-left 0.5s;
+       -o-transition: margin-left 0.5s;
+          transition: margin-left 0.5s;
+}
+
+.header_footer_plank {
+  top: auto;
+  bottom: -97px;
+  z-index: 5;
+
+  width: 100%;
+  min-height: 97px;
+
+  background: rgb(249, 181, 39); /* Old browsers */
+  background:    -moz-linear-gradient(top, rgba(249, 181, 39, 1) 0%, rgba(247, 213, 111, 1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(249, 181, 39, 1) 0%, rgba(247, 213, 111, 1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background:         linear-gradient(to bottom, rgba(249, 181, 39, 1) 0%, rgba(247, 213, 111, 1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  -webkit-border-radius: 60px 0 0 60px;
+     -moz-border-radius: 60px 0 0 60px;
+          border-radius: 60px 0 0 60px;
+  -webkit-box-shadow: 0 0 15px rgba(255, 255, 255, 0.59);
+     -moz-box-shadow: 0 0 15px rgba(255, 255, 255, 0.59);
+          box-shadow: 0 0 15px rgba(255, 255, 255, 0.59);
+}
+
+.olives_2 {
+  position: absolute;
+  top: -240px;
+  left: -440px;
+  z-index: 5;
+}
+
+.plank_left {
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+
+  width: auto;
+}
+
+.header_footer_plank_left {
+  min-height: 170px;
+  margin-top: 30px;
+  margin-right: 30%;
+
+  background: rgb(253, 235, 192); /* Old browsers */
+  background:    -moz-linear-gradient(top, rgba(253, 235, 192, 1) 0%, rgba(253, 244, 220, 1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(253, 235, 192, 1) 0%, rgba(253, 244, 220, 1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background:         linear-gradient(to bottom, rgba(253, 235, 192, 1) 0%, rgba(253, 244, 220, 1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  -webkit-border-radius: 0 120px 120px 0;
+     -moz-border-radius: 0 120px 120px 0;
+          border-radius: 0 120px 120px 0;
+}
+
+.result_text {
+  position: relative;
+  z-index: 4;
+
+  max-width: 333px;
+  min-height: 57px;
+  margin: 20px auto 0 0;
+  padding-bottom: 10px;
+
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1;
+  text-align: right;
+  color: #f7921c;
+  text-transform: uppercase;
+}
+
+.order_wrapper {
+  position: relative;
+}
+
+.all_buttons {
+  z-index: 10;
+
+  -webkit-transition: all 0.5s;
+     -moz-transition: all 0.5s;
+      -ms-transition: all 0.5s;
+       -o-transition: all 0.5s;
+          transition: all 0.5s;
+}
+
+.all_buttons:hover {
+  -webkit-transform: scale(1.1);
+     -moz-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+       -o-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.button_wrapper {
+  position: relative;
+
+  text-align: center;
+}
+
+.order_button {
+  display: inline-block;
+  min-width: 245px;
+  min-height: 21px;
+  padding: 15px 40px;
+
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  color: white;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.53);
+
+  background: rgb(254, 0, 1); /* Old browsers */
+  background:    -moz-linear-gradient(top, rgba(254, 0, 1, 1) 0%, rgb(184, 1, 1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(254, 0, 1, 1) 0%, rgb(184, 1, 1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background:         linear-gradient(to bottom, rgba(254, 0, 1, 1) 0%, rgb(184, 1, 1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  border-bottom: 3px solid #d94a45;
+  border-radius: 32px;
+  outline: none;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.section1_button {
+  position: absolute;
+  right: 150px;
+
+  margin-top: 80px;
+}
+
+.top_girl {
+  position: absolute;
+  top: -578px;
+  right: -300px;
+  z-index: 2;
+
+  width: 390px;
+  height: 720px;
+  overflow: hidden;
+
+  background: url("../../../../viposidn.com/content/Bustelle_KR_Pink_sp/img/milk.png") no-repeat bottom center;
+  background:    -moz-linear-gradient(top, rgba(254, 255, 255, 0) 0%, rgba(253, 253, 253, 0) 40%, rgba(251, 251, 251, 0.4) 60%, rgba(247, 247, 247, 0.5) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(254, 255, 255, 0) 0%, rgba(253, 253, 253, 0) 40%, rgba(251, 251, 251, 0.4) 60%, rgba(247, 247, 247, 0.5) 100%); /* Chrome10-25,Safari5.1-6 */
+  background:         linear-gradient(to bottom, rgba(254, 255, 255, 0) 0%, rgba(253, 253, 253, 0) 40%, rgba(251, 251, 251, 0.4) 60%, rgba(247, 247, 247, 0.5) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  -webkit-border-radius: 70% 30% 70% 90%;
+     -moz-border-radius: 70% 30% 70% 90%;
+          border-radius: 70% 30% 70% 90%;
+}
+
+.header_content {
+  z-index: 3;
+}
+
+.top_glow {
+  position: absolute;
+  right: -155px;
+  bottom: -130px;
+
+  width: 410px;
+  height: 360px;
+
+  background: rgba(255, 255, 255, 0.41);
+  background: radial-gradient(ellipse at center, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 39%, rgba(255, 255, 255, 0.5) 68%, rgba(255, 255, 255, 0) 100%);
+  -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+          border-radius: 50%;
+  -webkit-box-shadow: 0 0 25px rgba(255, 255, 255, 0.75), inset 0 0 25px rgba(255, 255, 255, 0.45);
+     -moz-box-shadow: 0 0 25px rgba(255, 255, 255, 0.75), inset 0 0 25px rgba(255, 255, 255, 0.45);
+          box-shadow: 0 0 25px rgba(255, 255, 255, 0.75), inset 0 0 25px rgba(255, 255, 255, 0.45);
+}
+
+.s1_girl {
+    position: absolute;
+    bottom: 172px;
+    left: 0;
+    z-index: 3;
+    width: 450px;
+    padding-right: 50px;
+
+  background: url("../../../../viposidn.com/content/Bustelle_KR_Pink_sp/img/milk.png") no-repeat 83% 100%;
+}
+
+.promo_text {
+  float: left;
+  max-width: 190px;
+  padding-top: 30px;
+  padding-left: 40px;
+
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 1;
+  color: black;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.price {
+  position: relative;
+
+  display: inline-block;
+  padding-top: 30px;
+  padding-left: 20px;
+
+  font-weight: 700;
+  font-size: 50px;
+  color: #c60000;
+}
+
+.old_price_text {
+  position: absolute;
+  top: 10px;
+  right: -2px;
+
+  font-weight: 400;
+  font-size: 30px;
+  color: black;
+  text-decoration: line-through;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.product_wrapper {
+  position: relative;
+}
+
+.product {
+  position: absolute;
+    top: -262px;
+    right: -196px;
+    z-index: 10000;
+    max-width: 200px;
+    max-height: 300px;
+}
+
+.shadow_clip {
+  position: relative;
+  z-index: 0;
+}
+
+.custom_shadow {
+  position: absolute;
+
+  width: 875px;
+  height: 56px;
+  /*right:      70px;*/
+  /*top:        170px;*/
+
+  background: url("../../../../viposidn.com/content/Bustelle_KR_Pink_sp/img/custom_shadow.png") no-repeat top right;
+}
+
+.header_footer_shadow {
+  top: 170px;
+  right: 70px;
+}
+
+.header_bottom_shadow {
+  top: 0;
+  right: 30px;
+
+  opacity: 0.8;
+}
+
+.header_top_shadow {
+  top: 12px;
+  left: 10px;
+
+  width: 100%;
+
+  -webkit-transform: scaleX(-1);
+     -moz-transform: scaleX(-1);
+      -ms-transform: scaleX(-1);
+       -o-transform: scaleX(-1);
+          transform: scaleX(-1);
+}
+
+.section2 {
+  position: relative;
+  z-index: 1;
+
+  background: url("../../../../viposidn.com/content/Bustelle_KR_Pink_sp/img/s2_girl.png") no-repeat 0 bottom, linear-gradient(135deg, rgba(255, 255, 255, 0) 0%, rgba(252, 235, 238, 0) 41%, rgba(250, 223, 228, 0.86) 64%, rgba(248, 206, 213, 1) 99%, rgba(248, 205, 213, 1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ffffff', endColorstr='#f8cdd5', GradientType=1); /* IE6-9 fallback on horizontal gradient */
+
+  -webkit-transition: background 0.5s;
+     -moz-transition: background 0.5s;
+      -ms-transition: background 0.5s;
+       -o-transition: background 0.5s;
+          transition: background 0.5s;
+}
+
+.section2_header_wrapper {
+  position: relative;
+  top: 0;
+  right: 0;
+
+  width: auto;
+  margin-left: 45%;
+  padding-top: 80px;
+}
+
+.section2_title {
+  min-height: 189px;
+  padding: 30px 30px 30px 60px;
+  overflow: hidden;
+
+  font-weight: 300;
+  font-size: 64px;
+  line-height: 65px;
+  color: #3f0100;
+  text-transform: uppercase;
+
+  background-color: white;
+  -webkit-border-radius: 150px 0 0 150px;
+     -moz-border-radius: 150px 0 0 150px;
+          border-radius: 150px 0 0 150px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.28);
+}
+
+.section2_title span {
+  display: block;
+
+  font-weight: 400;
+  color: #de0000;
+}
+
+.section2_title strong {
+  display: block;
+
+  font-weight: 700;
+  line-height: 65px;
+  color: #de0000;
+}
+
+.s18_olive_bottom {
+  display: none;
+}
+
+.s18_product {
+  top: 30px;
+  left: 00px;
+}
+
+.section2_icons {
+  position: relative;
+
+  width: auto;
+  margin-left: 38%;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.circle_wrapper {
+  width: 168px;
+  height: 168px;
+  overflow: hidden;
+
+  -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+          border-radius: 50%;
+  -webkit-box-shadow: inset 5px 0 10px rgba(0, 0, 0, 0.7);
+     -moz-box-shadow: inset 5px 0 10px rgba(0, 0, 0, 0.7);
+          box-shadow: inset 5px 0 10px rgba(0, 0, 0, 0.7);
+}
+
+.section2_icon {
+  width: 178px;
+  height: 178px;
+  margin: 0 auto;
+
+  border: 5px solid red;
+  -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+          border-radius: 50%;
+}
+
+.section2_icon1 {
+  background: url("../../../../viposidn.com/content/Bustelle_KR_Pink_sp/image/s2_icon1.png") no-repeat center;
+}
+
+.section2_icon2 {
+  background: url("../../../../viposidn.com/content/Bustelle_KR_Pink_sp/image/s2_icon2.png") no-repeat center;
+}
+
+.section2_icon3 {
+  background: url("../../../../viposidn.com/content/Bustelle_KR_Pink_sp/image/s2_icon3.png") no-repeat center;
+}
+
+.section2_icon4 {
+  background: url("../../../../viposidn.com/content/Bustelle_KR_Pink_sp/image/s2_icon4.png") no-repeat center;
+}
+
+.section2_item {
+  display: inline-block;
+
+  text-align: center;
+}
+
+.section2_item:nth-child(1) {
+  position: absolute;
+  top: -270px;
+  left: -110px;
+}
+
+.section2_item:nth-child(1) .section2_icon_text {
+  position: absolute;
+  top: 60px;
+  left: -270px;
+  font-size: 28px;
+  text-align: right;
+}
+
+.text_2 {
+  position: absolute !important;
+  top: 190px !important;
+  left: 0 !important;
+  text-align: center !important;
+  width: 160px !important;
+}
+
+.text__3 {
+  position: absolute;
+  width: 160px;
+  right: 50px;
+}
+
+.section2_item:nth-child(2) {
+  position: absolute;
+  top: -70px;
+  left: -70px;
+}
+
+.section2_item:nth-child(2) .section2_icon_text {
+  position: absolute;
+  top: 60px;
+  left: -270px;
+
+  text-align: right;
+}
+
+.section2_item:nth-child(3) {
+  float: left;
+  margin-left: 90px;
+}
+
+.section2_item:nth-child(4) {
+  margin-left: 10px;
+}
+
+.section2_icon_text {
+  width: 250px;
+
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 1;
+  text-align: center;
+}
+
+.section2_icon_text strong {
+  font-weight: 700;
+  color: #de0000;
+}
+
+.section3 {
+  padding-top: 90px;
+
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0) 0%, rgba(252, 235, 238, 0) 41%, rgba(250, 223, 228, 0.86) 64%, rgba(248, 206, 213, 1) 99%, rgba(248, 205, 213, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ffffff', endColorstr='#f8cdd5', GradientType=1);
+}
+
+.section3_title {
+  font-weight: 300;
+  font-size: 54px;
+  line-height: 1.1;
+  text-align: center;
+}
+
+.section3_title strong {
+  font-weight: 700;
+  color: #de0000;
+}
+
+.risks {
+  width: auto;
+  margin-top: 20px;
+}
+
+.risks_item_wrapper {
+  float: left;
+  min-height: 280px;
+  margin-top: 60px;
+}
+
+.risks_item {
+  position: relative;
+
+  text-align: center;
+}
+
+.risks_circle {
+  position: absolute;
+  left: 50%;
+  z-index: 0;
+
+  width: 230px;
+  height: 230px;
+  margin-left: -115px;
+
+  border: 1px solid #dfc6c2;
+  -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+          border-radius: 50%;
+}
+
+.risks_item_plank {
+  position: relative;
+  bottom: 0;
+
+  display: table;
+  width: 305px;
+  min-height: 60px;
+  margin: 3px auto 0;
+  padding: 8px 10px;
+
+  font-weight: 400;
+  font-size: 25px;
+  color: white;
+
+  background: rgb(190, 94, 49); /* Old browsers */
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+}
+
+.risks_item_plank_text {
+  display: table-cell;
+
+  vertical-align: middle;
+}
+
+.risks_item_img {
+  position: relative;
+  z-index: 2;
+
+  margin-top: 20px;
+}
+
+.risks_item_background {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  z-index: 1;
+}
+
+.risks_item_cross {
+  position: relative;
+
+  width: 100%;
+  margin: 10px auto 0;
+
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.cross {
+  position: absolute;
+  top: -3px;
+  left: -20px;
+
+  display: block;
+  width: 19px;
+  height: 19px;
+
+  background: url("../../../../viposidn.com/content/Bustelle_KR_Pink_sp/img/cross.png") no-repeat left center;
+}
+
+
+
+.risks_item_wrapper:nth-child(2) .risks_item_background {
+  top: 15px;
+  left: 70px;
+}
+
+.risks_item_wrapper:nth-child(3) .risks_item_background {
+  top: 40px;
+  left: 0;
+}
+
+.risks_item_wrapper:nth-child(4) .risks_item_background {
+  top: 70px;
+  left: -40px;
+}
+
+.risks_item_wrapper:nth-child(5) .risks_item_background {
+  top: 40px;
+  left: 0;
+}
+
+.risks_item_wrapper:nth-child(6) .risks_item_background {
+  top: 0;
+  left: 0;
+}
+
+
+
+.section3_footer {
+  margin-top: 120px;
+  margin-bottom: -2px;
+  margin-left: 45%;
+
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 32%, rgba(255, 255, 255, 0.93) 83%, rgb(255, 255, 255) 100%);
+  border-top: 4px dashed #bf0203;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ffffff', endColorstr='#f8cdd5', GradientType=1);
+}
+
+.section3_footer_text {
+  max-width: 570px;
+  padding: 50px 15px 40px 0;
+
+  font-weight: 700;
+  font-size: 26px;
+  margin-left: 80px
+}
+
+.section3_footer_text strong {
+  color: #de0000;
+}
+
+.needs_item_text p {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.section3_footer_plank {
+  position: relative;
+
+  max-width: 680px;
+  margin-left: -60px;
+  padding: 10px 40px 15px 20px;
+
+  font-weight: 700;
+  font-size: 47px;
+  text-align: right;
+  color: white;
+
+  background: rgb(187, 2, 2); /* Old browsers */
+  background:    -moz-linear-gradient(left, rgba(187, 2, 2, 1) 0%, rgba(241, 3, 4, 1) 56%, rgba(241, 3, 4, 1) 79%, rgba(187, 2, 2, 1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, rgba(187, 2, 2, 1) 0%, rgba(241, 3, 4, 1) 56%, rgba(241, 3, 4, 1) 79%, rgba(187, 2, 2, 1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background:         linear-gradient(to right, rgba(187, 2, 2, 1) 0%, rgba(241, 3, 4, 1) 56%, rgba(241, 3, 4, 1) 79%, rgba(187, 2, 2, 1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  -webkit-border-radius: 0 50px 50px 0;
+     -moz-border-radius: 0 50px 50px 0;
+          border-radius: 0 50px 50px 0;
+}
+
+.section3_plank_shadow {
+  top: 16px;
+  right: -30px;
+}
+
+.section3_footer_img {
+  position: absolute;
+  bottom: 0;
+  left: -325px;
+}
+
+.clip_arrow {
+  position: relative;
+}
+
+.custom_arrow {
+  position: absolute;
+}
+
+.section3_arrow {
+  top: -100px;
+  left: -240px;
+
+  width: 223px;
+  height: 68px;
+
+  background: url("../../../../viposidn.com/content/Bustelle_KR_Pink_sp/img/s3_arrow.png") no-repeat top right;
+}
+
+.custom_shadow2 {
+  position: absolute;
+  top: 1px;
+  left: 50%;
+  z-index: 0;
+
+  width: 712px;
+  height: 31px;
+  margin-left: -356px;
+
+  background: url("../../../../viposidn.com/content/Bustelle_KR_Pink_sp/img/custom_shadow2.png") no-repeat top center;
+}
+
+.section4 {
+  background: url("../../../../viposidn.com/content/Bustelle_KR_Pink_sp/img/main_bg.jpg") no-repeat top center;
+  -webkit-background-size: cover;
+          background-size: cover;
+}
+
+.section4_bottom_shadow {
+  top: 0;
+  left: 50%;
+
+  margin-left: -356px;
+}
+
+.vik_slider {
+  position: relative;
+
+  padding-top: 110px;
+  padding-bottom: 110px;
+  overflow: hidden;
+}
+
+.slider_overflow {
+  position: relative;
+  z-index: 0;
+
+  width: 610px;
+  height: 670px;
+  margin: 0 auto;
+  overflow: hidden;
+
+  text-align: center;
+
+  border-bottom: 5px solid #afa815;
+  -webkit-border-radius: 0 0 50% 50%;
+     -moz-border-radius: 0 0 50% 50%;
+          border-radius: 0 0 50% 50%;
+}
+
+.slider_item {
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+
+  max-height: 640px;
+  margin-left: -190px;
+}
+
+.slider_overflow_shadow {
+  position: absolute;
+  bottom: 107px;
+  left: 50%;
+
+  width: 450px;
+  height: 309px;
+  margin-left: -225px;
+
+  -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+          border-radius: 50%;
+  -webkit-box-shadow: 0 50px 48px rgba(0, 0, 0, 0.09);
+     -moz-box-shadow: 0 50px 48px rgba(0, 0, 0, 0.09);
+          box-shadow: 0 50px 48px rgba(0, 0, 0, 0.09);
+}
+
+.slider_img {
+  margin-bottom: -10px;
+}
+
+.slider_week_plank {
+  position: absolute;
+  right: -40px;
+  bottom: 220px;
+  left: 52%;
+
+  padding: 10px 30px 30px 100px;
+
+  -webkit-transform: rotate(-16deg);
+     -moz-transform: rotate(-16deg);
+      -ms-transform: rotate(-16deg);
+       -o-transform: rotate(-16deg);
+          transform: rotate(-16deg);
+}
+
+.slider_plank {
+  position: absolute;
+  right: 0;
+  left: 20%;
+  z-index: 0;
+}
+
+.slider_week_text {
+  position: absolute;
+  z-index: 1;
+
+  padding-left: 17%;
+
+  font-weight: 700;
+  font-size: 56px;
+  color: #f7921c;
+  text-shadow: 1px 0 0 #ffffff,
+  0 1px 0 #ffffff,
+  -1px 0 0 #ffffff,
+  0 -1px 0 #ffffff,
+  3px 0 5px #ffffff,
+  0 3px 5px #ffffff,
+  -3px 0 5px #ffffff,
+  0 -3px 5px #ffffff;
+}
+
+.section4_content {
+  position: relative;
+
+  margin-top: -110px;
+  padding-bottom: 190px;
+}
+
+.section4_title {
+  position: absolute;
+  top: -180px;
+  left: 320px;
+
+  margin-top: -100px;
+
+  font-weight: 300;
+  font-size: 66px;
+  line-height: 0.7;
+  text-shadow: 1px 0 0 #ffffff,
+  0 1px 0 #ffffff,
+  -1px 0 0 #ffffff,
+  0 -1px 0 #ffffff,
+  3px 0 5px #ffffff,
+  0 3px 5px #ffffff,
+  -3px 0 5px #ffffff,
+  0 -3px 5px #ffffff,
+  5px 0 9px #ffffff,
+  0 5px 9px #ffffff,
+  -5px 0 9px #ffffff,
+  0 -5px 9px #ffffff;
+
+  -webkit-transform: rotate(-15deg);
+     -moz-transform: rotate(-15deg);
+      -ms-transform: rotate(-15deg);
+       -o-transform: rotate(-15deg);
+          transform: rotate(-15deg);
+}
+
+.section4_title strong {
+  font-weight: 700;
+  color: #f7921c;
+}
+
+.needs {
+  position: absolute;
+  top: -600px;
+  left: 20px;
+}
+
+.needs_item {
+  position: relative;
+
+  margin-bottom: 20px;
+}
+
+
+
+.needs_item:nth-child(2) {
+  left: -40px;
+}
+
+.needs_item:nth-child(3) {
+  left: -50px;
+}
+
+.needs_item:nth-child(4) {
+  left: 10px;
+}
+
+.needs_item_text {
+  float: right;
+  max-width: 180px;
+  padding-top: 20px;
+  padding-left: 20px;
+
+  font-weight: 400;
+  font-size: 16px;
+  text-align: right;
+  color: black;
+}
+
+.needs_item_text strong {
+  font-weight: 700;
+  color: #f7921c;
+}
+
+.needs_item:nth-child(1) .needs_item_text {
+  padding-top: 26px;
+}
+
+
+
+
+
+.needs_item:nth-child(4) .needs_item_text {
+  padding-top: 12px;
+}
+
+.needs_item_img {
+  float: right;
+  width: 100px;
+  height: 100px;
+  margin-left: 10px;
+
+  border: 5px solid #afa815;
+  -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+          border-radius: 50%;
+}
+
+.needs_item_img1 {
+  background: url("../../../../viposidn.com/content/Bustelle_KR_Pink_sp/image/s4_icon1.png") no-repeat center;
+}
+
+.needs_item_img2 {
+  background: url("../../../../viposidn.com/content/Bustelle_KR_Pink_sp/image/s4_icon2.png") no-repeat center;
+}
+
+.needs_item_img3 {
+  background: url("../../../../viposidn.com/content/Bustelle_KR_Pink_sp/image/s4_icon3.png") no-repeat center;
+}
+
+.needs_item_img4 {
+  background: url("../../../../viposidn.com/content/Bustelle_KR_Pink_sp/image/s4_icon4.png") no-repeat center;
+}
+
+.leafs {
+  position: relative;
+}
+
+.leaf {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.leaf1 {
+  top: 130px;
+  left: 170px;
+}
+
+.leaf2 {
+  top: 30px;
+  left: 310px;
+
+  -webkit-transform: scale(0.5) rotate(45deg);
+     -moz-transform: scale(0.5) rotate(45deg);
+      -ms-transform: scale(0.5) rotate(45deg);
+       -o-transform: scale(0.5) rotate(45deg);
+          transform: scale(0.5) rotate(45deg);
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+}
+
+.leaf3 {
+  top: 120px;
+  left: 640px;
+
+  -webkit-transform: scale(0.4) rotate(60deg);
+     -moz-transform: scale(0.4) rotate(60deg);
+      -ms-transform: scale(0.4) rotate(60deg);
+       -o-transform: scale(0.4) rotate(60deg);
+          transform: scale(0.4) rotate(60deg);
+  -webkit-filter: blur(6px);
+          filter: blur(6px);
+}
+
+.leaf4 {
+  top: 280px;
+  left: 890px;
+
+  -webkit-transform: scale(0.7) rotate(120deg);
+     -moz-transform: scale(0.7) rotate(120deg);
+      -ms-transform: scale(0.7) rotate(120deg);
+       -o-transform: scale(0.7) rotate(120deg);
+          transform: scale(0.7) rotate(120deg);
+}
+
+.leaf5 {
+  top: 320px;
+  left: 740px;
+}
+
+.s4_bust {
+  top: 70px;
+  left: 722px;
+}
+
+.s4_creme {
+  top: 70px;
+  left: 220px;
+}
+
+.s4_olive_bottom {
+  position: absolute;
+  right: 140px;
+  bottom: -15px;
+}
+
+.slider_plank_shadow {
+  top: 63px;
+  left: 165px;
+
+  -webkit-transform: scaleX(-1) rotate(1deg);
+     -moz-transform: scaleX(-1) rotate(1deg);
+      -ms-transform: scaleX(-1) rotate(1deg);
+       -o-transform: scaleX(-1) rotate(1deg);
+          transform: scaleX(-1) rotate(1deg);
+}
+
+.section5 {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.section5_plank {
+  width: auto;
+  margin-right: 45%;
+  padding-right: 50px;
+
+  text-align: right;
+
+  background: rgb(223, 34, 69); /* Old browsers */
+  background:    -moz-linear-gradient(left, rgba(223, 34, 69, 1) 0%, rgba(247, 146, 28, 1) 54%, rgba(247, 146, 28, 1) 75%, rgba(232, 123, 27, 1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, rgba(223, 34, 69, 1) 0%, rgba(247, 146, 28, 1) 54%, rgba(247, 146, 28, 1) 75%, rgba(232, 123, 27, 1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background:         linear-gradient(to right, rgba(223, 34, 69, 1) 0%, rgba(247, 146, 28, 1) 54%, rgba(247, 146, 28, 1) 75%, rgba(232, 123, 27, 1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  border: 1px solid white;
+  -webkit-border-radius: 0 80px 80px 0;
+     -moz-border-radius: 0 80px 80px 0;
+          border-radius: 0 80px 80px 0;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.4);
+}
+
+.section5_logo {
+  padding: 12px 0 12px;
+
+  font-size: 80px;
+  line-height: 80px;
+  color: #ffffff;
+}
+
+.section5_content {
+  position: relative;
+  z-index: 99;
+  margin-right: 45%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  font-weight: 600;
+  font-size: 27px;
+  text-align: right;
+}
+
+.section5_content p {
+  margin: 10px 0px;
+}
+
+.section5_content strong {
+  font-weight: 700;
+  color: #afa815;
+}
+
+.section5_order {
+  display: inline-block;
+  margin-top: 60px;
+  margin-left: 5%;
+  padding: 30px;
+
+  -webkit-border-radius: 90px;
+     -moz-border-radius: 90px;
+          border-radius: 90px;
+  -webkit-box-shadow: inset 2px 3px 8px rgba(0, 0, 0, 0.35);
+     -moz-box-shadow: inset 2px 3px 8px rgba(0, 0, 0, 0.35);
+          box-shadow: inset 2px 3px 8px rgba(0, 0, 0, 0.35);
+}
+
+.section5_button {
+  position: relative;
+  z-index: 9;
+
+  font-size: 46px;
+
+  -webkit-border-radius: 100px;
+     -moz-border-radius: 100px;
+          border-radius: 100px;
+}
+
+.section5_img {
+  position: absolute;
+}
+
+.s5_creme {
+  right: 10px;
+  bottom: -70px;
+  z-index: 0;
+}
+
+.s5_girl {
+  right: -130px;
+  bottom: -15px;
+}
+
+.s5_product {
+  right: 290px;
+  bottom: -60px;
+  z-index: 9;
+
+  width: 110px;
+}
+
+.s5_arrow {
+  right: 230px;
+  bottom: 360px;
+}
+
+.s5_jojoba {
+  right: 10px;
+  bottom: -70px;
+  z-index: 8;
+}
+
+.s5_olive {
+  bottom: 110px;
+  left: 40px;
+}
+
+.s5_leaf {
+  top: -130px;
+  left: 330px;
+  z-index: 1;
+}
+
+.s5_olive2 {
+  top: 360px;
+  left: 0;
+}
+
+.section5_wrapper {
+  padding-bottom: 15px;
+
+  background: radial-gradient(ellipse at bottom, rgba(247, 195, 205, 1) 0%, rgba(250, 225, 230, 1) 20%, rgba(252, 248, 249, 0) 40%, rgba(252, 252, 252, 0) 50%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.section5_wrapper_shadow {
+  top: 0;
+  right: 30px;
+  z-index: -1;
+
+  opacity: 0.8;
+}
+
+.section5_gradients {
+  /*padding-bottom: 510px;*/
+  background: radial-gradient(circle closest-side at 80% 50%, rgba(243, 242, 220, 1) 40%, rgba(243, 242, 220, 0) 140%),
+  radial-gradient(circle closest-side at 10% 50%, rgb(254, 240, 225) 30%, rgba(243, 242, 220, 0) 310%);
+}
+
+.section6 {
+  margin-top: -450px;
+  padding: 100px 0;
+}
+
+.section6_title {
+  padding: 50px 0 60px;
+
+  font-weight: 300;
+  font-size: 54px;
+  text-align: center;
+  color: black;
+}
+
+.section6_title strong {
+  font-weight: 700;
+  color: #1da6f7;
+  text-transform: uppercase;
+}
+
+.section6_elements {
+  position: relative;
+
+  width: auto;
+  margin: 0 auto;
+  padding: 10px;
+
+  background: rgb(28, 162, 247);
+  background:    -moz-linear-gradient(left, rgba(28, 162, 247, 1) 0%, rgba(37, 190, 249, 1) 35%, rgba(59, 197, 247, 1) 65%, rgba(28, 162, 247, 1) 100%);
+  background: -webkit-linear-gradient(left, rgba(28, 162, 247, 1) 0%, rgba(37, 190, 249, 1) 35%, rgba(59, 197, 247, 1) 65%, rgba(28, 162, 247, 1) 100%);
+  background:         linear-gradient(to right, rgba(28, 162, 247, 1) 0%, rgba(37, 190, 249, 1) 35%, rgba(59, 197, 247, 1) 65%, rgba(28, 162, 247, 1) 100%);
+  -webkit-border-radius: 100px;
+     -moz-border-radius: 100px;
+          border-radius: 100px;
+}
+
+.element {
+  float: left;
+  width: 300px;
+  margin-right: 360px;
+
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+}
+
+.element:last-child {
+  margin-right: 0;
+}
+
+.element_checks {
+  position: relative;
+
+  float: left;
+  width: 315px;
+  margin-right: 350px;
+}
+
+.element_checks:last-child {
+  margin-right: 0;
+}
+
+.checks_wrapper {
+  position: relative;
+
+  width: auto;
+  padding-bottom: 90px;
+}
+
+.checks_item {
+  margin-top: 15px;
+  padding-left: 40px;
+}
+
+.check {
+  position: relative;
+  top: 30px;
+  left: -40px;
+
+  display: block;
+  width: 29px;
+  height: 31px;
+
+  background: url("../../../../viposidn.com/content/Bustelle_KR_Pink_sp/img/checked.png") no-repeat left top;
+}
+
+.checks_item_text {
+  font-weight: 400;
+  font-size: 19px;
+  color: black;
+}
+
+.checks_item_text strong {
+  font-weight: 700;
+  font-size: 19px;
+  color: #f7921c;
+}
+
+.section6_content_images {
+  position: absolute;
+  top: -110px;
+  right: 0;
+  left: 0;
+
+  width: 350px;
+  margin: 0 auto;
+
+  text-align: center;
+}
+
+.bg_circle {
+  width: 350px;
+  height: 395px;
+  margin: 0 auto;
+
+  border: 3px solid #97e2fd;
+  -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+          border-radius: 50%;
+}
+
+.s6_creme {
+  position: absolute;
+  top: 40px;
+  left: 0;
+}
+
+.central_circle {
+  position: absolute;
+  top: 10px;
+  left: 0;
+
+  width: 100%;
+  overflow: hidden;
+
+  border: 5px solid #1ca2f7;
+  -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+          border-radius: 50%;
+  -webkit-box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.4);
+     -moz-box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.4);
+          box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.4);
+}
+
+.s6_content_img {
+  left: 50%;
+
+  width: 326px;
+  height: 374px;
+  margin-left: -163px;
+
+  background: url("../../../../viposidn.com/content/Bustelle_KR_Pink_sp/img/s6_content_img.png") no-repeat left top;
+}
+
+.s6_girl {
+  position: absolute;
+  bottom: 0;
+  left: 240px;
+}
+
+.s6_leaf {
+  position: absolute;
+  bottom: -58px;
+  left: 740px;
+}
+
+.section7 {
+  background: url("../../../../viposidn.com/content/Bustelle_KR_Pink_sp/img/s7_bg.jpg") no-repeat left top;
+}
+
+.section7_title {
+  font-size: 54px;
+  line-height: 60px;
+  text-align: center;
+  color: black;
+}
+
+.section7_title strong {
+  font-weight: 700;
+  color: #f7921c;
+}
+
+.section7_steps {
+  padding: 100px 0;
+}
+
+.section7_steps_item {
+  position: relative;
+
+  margin-bottom: 0;
+}
+
+
+
+.section7_steps_item:nth-child(2) {
+  margin-left: 130px;
+}
+
+.section7_steps_item:nth-child(3) {
+  margin-left: 270px;
+}
+
+.steps_item_left {
+  position: relative;
+
+  margin-right: 30px;
+}
+
+.steps_plank {
+  position: absolute;
+  top: 0;
+  left: 79px;
+  z-index: 1;
+
+  display: block;
+  min-width: 180px;
+  padding: 5px 15px 10px 80px;
+
+  font-size: 28px;
+  color: white;
+  white-space: nowrap;
+
+  background: rgb(28, 162, 247);
+  background:    -moz-linear-gradient(left, rgb(198, 189, 26) 0%, rgb(175, 168, 21) 100%);
+  background: -webkit-linear-gradient(left, rgb(198, 189, 26) 0%, rgb(175, 168, 21) 100%);
+  background:         linear-gradient(to right, rgb(198, 189, 26) 0%, rgb(175, 168, 21) 100%);
+  -webkit-border-radius: 0 50px 50px 0;
+     -moz-border-radius: 0 50px 50px 0;
+          border-radius: 0 50px 50px 0;
+}
+
+.steps_plank strong {
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.steps_bg_circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 0;
+
+  width: 192px;
+  height: 192px;
+  margin-top: -96px;
+  margin-left: -96px;
+
+  border: 2px solid #afa815;
+  -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+          border-radius: 50%;
+}
+
+.steps_img_circle {
+  position: relative;
+  z-index: 2;
+
+  width: 162px;
+  height: 162px;
+  overflow: hidden;
+
+  -webkit-background-size: cover;
+          background-size: cover;
+  border: 2px solid #afa815;
+  -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+          border-radius: 50%;
+  -webkit-box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.66);
+     -moz-box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.66);
+          box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.66);
+}
+
+.steps_img1 {
+  background: url("../../../../viposidn.com/content/Bustelle_KR_Pink_sp/img/s7_step1.png") no-repeat left top;
+}
+
+.steps_img2 {
+  background: url("../../../../viposidn.com/content/Bustelle_KR_Pink_sp/img/s7_step2.png") no-repeat left top;
+}
+
+.steps_img3 {
+  background: url("../../../../viposidn.com/content/Bustelle_KR_Pink_sp/img/s7_step3.png") no-repeat left top;
+}
+
+.s7_arrow {
+  position: absolute;
+  right: -40px;
+  bottom: 10px;
+}
+
+.steps_item_right {
+  padding-top: 20px;
+}
+
+.step_count {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 60px;
+  height: 60px;
+  padding: 12px;
+  overflow: hidden;
+
+  font-weight: 700;
+  font-size: 30px;
+  color: #ffffff;
+
+  background-color: #df2245;
+  border: 1px solid #393939;
+  -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+          border-radius: 50%;
+  box-shadow: inset -6px 7px 7px rgba(0, 0, 0, 0.38);
+}
+
+.steps_item_title {
+  font-weight: 700;
+  font-size: 22px;
+  color: #f7921c;
+  text-transform: uppercase;
+}
+
+.steps_item_text {
+  position: relative;
+
+  max-width: 250px;
+  padding-top: 50px;
+
+  font-size: 20px;
+}
+
+.steps_item_text strong {
+  font-size: 20px;
+  color: #f7921c;
+}
+
+.section7_lines {
+  position: relative;
+}
+
+.section7_line {
+  position: absolute;
+
+  width: 100%;
+  height: 2px;
+
+  background: rgb(175, 168, 21);
+  background:    -moz-linear-gradient(left, rgba(175, 168, 21, 0) 20%, rgba(175, 168, 21, 1) 50%, rgba(175, 168, 21, 0) 80%);
+  background: -webkit-linear-gradient(left, rgba(175, 168, 21, 0) 20%, rgba(175, 168, 21, 1) 50%, rgba(175, 168, 21, 0) 80%);
+  background:         linear-gradient(to right, rgba(175, 168, 21, 0) 20%, rgba(175, 168, 21, 1) 50%, rgba(175, 168, 21, 0) 80%);
+  -webkit-transform: rotate(50deg);
+     -moz-transform: rotate(50deg);
+      -ms-transform: rotate(50deg);
+       -o-transform: rotate(50deg);
+          transform: rotate(50deg);
+}
+
+.section7_line1 {
+  top: 240px;
+  left: -420px;
+}
+
+.section7_line2 {
+  top: 80px;
+  left: -530px;
+
+  background:    -moz-linear-gradient(left, rgba(175, 168, 21, 0) 40%, rgba(175, 168, 21, 1) 50%, rgba(175, 168, 21, 0) 60%);
+  background: -webkit-linear-gradient(left, rgba(175, 168, 21, 0) 40%, rgba(175, 168, 21, 1) 50%, rgba(175, 168, 21, 0) 60%);
+  background:         linear-gradient(to right, rgba(175, 168, 21, 0) 40%, rgba(175, 168, 21, 1) 50%, rgba(175, 168, 21, 0) 60%);
+}
+
+.section7_line3 {
+  top: 440px;
+  left: -490px;
+
+  background:    -moz-linear-gradient(left, rgba(175, 168, 21, 0) 30%, rgba(175, 168, 21, 1) 50%, rgba(175, 168, 21, 0) 60%);
+  background: -webkit-linear-gradient(left, rgba(175, 168, 21, 0) 30%, rgba(175, 168, 21, 1) 50%, rgba(175, 168, 21, 0) 60%);
+  background:         linear-gradient(to right, rgba(175, 168, 21, 0) 30%, rgba(175, 168, 21, 1) 50%, rgba(175, 168, 21, 0) 60%);
+}
+
+.section7_line4 {
+  top: 530px;
+  left: -400px;
+
+  background:    -moz-linear-gradient(left, rgba(175, 168, 21, 0) 30%, rgba(175, 168, 21, 1) 50%, rgba(175, 168, 21, 0) 60%);
+  background: -webkit-linear-gradient(left, rgba(175, 168, 21, 0) 30%, rgba(175, 168, 21, 1) 50%, rgba(175, 168, 21, 0) 60%);
+  background:         linear-gradient(to right, rgba(175, 168, 21, 0) 30%, rgba(175, 168, 21, 1) 50%, rgba(175, 168, 21, 0) 60%);
+}
+
+.section7_bottom_shadow {
+  right: 15%;
+}
+
+.section7_bg_images,
+.section7_front_images {
+  position: relative;
+}
+
+.s7_bust {
+  position: absolute;
+  top: 390px;
+  left: -210px;
+}
+
+.s7_creme {
+  position: absolute;
+  top: 0;
+  right: -40px;
+
+  -webkit-transform: rotate(20deg) scaleX(-1);
+     -moz-transform: rotate(20deg) scaleX(-1);
+      -ms-transform: rotate(20deg) scaleX(-1);
+       -o-transform: rotate(20deg) scaleX(-1);
+          transform: rotate(20deg) scaleX(-1);
+}
+
+.section7_front_images {
+  z-index: 10;
+}
+
+.section7_leaf1 {
+  top: -110px;
+  left: 900px;
+  z-index: 1;
+}
+
+.section7_leaf2 {
+  top: -560px;
+  left: -110px;
+}
+
+.section7_leaf3 {
+  top: -590px;
+  left: 920px;
+}
+
+.s7_girl_wrapper {
+  overflow: hidden;
+}
+
+.s7_girl {
+  position: absolute;
+  right: -160px;
+  bottom: 0;
+}
+
+.s7_olive {
+  position: absolute;
+  top: 60px;
+  right: 0;
+}
+
+.section8 {
+  padding: 0 0 460px 0;
+
+  background: radial-gradient(circle closest-side at 15% 60%, rgba(253, 233, 210, 0.58) 0%, rgba(243, 242, 220, 0) 190%);
+}
+
+.section8_images {
+  position: relative;
+  z-index: 10;
+}
+
+.section8_logo {
+  margin: 0;
+}
+
+.section8_content {
+  padding-top: 100px;
+  padding-left: 220px;
+}
+
+.section8_tittle {
+  font-size: 45px;
+  text-transform: uppercase;
+}
+
+.section8_tittle strong {
+  font-size: 45px;
+  color: #afa815;
+}
+
+.ingredients {
+  width: auto;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.ingredients_item {
+  float: left;
+  width: 50%;
+  min-height: 190px;
+  padding: 0 15px 40px;
+}
+
+.ingredients_item_image {
+  width: 120px;
+  height: 120px;
+}
+
+.ingredients_item_image1 {
+  background: url("../../../../viposidn.com/content/Bustelle_KR_Pink_sp/image/peppti.png") no-repeat left top;
+  -webkit-background-size: contain;
+          background-size: contain;
+}
+
+.ingredients_item_image2 {
+  background: url("../../../../viposidn.com/content/Bustelle_KR_Pink_sp/image/collagen.png") no-repeat left top;
+  -webkit-background-size: contain;
+          background-size: contain;
+}
+
+.ingredients_item_image3 {
+  background: url("../../../../viposidn.com/content/Bustelle_KR_Pink_sp/image/elastin.png") no-repeat left top;
+  -webkit-background-size: contain;
+          background-size: contain;
+}
+
+.ingredients_item_image4 {
+  background: url("../../../../viposidn.com/content/Bustelle_KR_Pink_sp/image/inositol.png") no-repeat left top;
+  -webkit-background-size: contain;
+          background-size: contain;
+}
+
+.ingredients_item_content {
+  margin-left: 130px;
+}
+
+.ingredients_item_title {
+  padding-bottom: 10px;
+
+  font-weight: 700;
+  font-size: 24px;
+  color: #afa815;
+  text-transform: uppercase;
+}
+
+.ingredients_item_text {
+  font-size: 18px;
+  text-align: justify;
+}
+
+.section8_plank {
+  position: relative;
+
+  padding-bottom: 20px;
+
+  background: url("../../../../viposidn.com/content/Bustelle_KR_Pink_sp/img/s8_plank.png") no-repeat left top;
+  -webkit-background-size: 100%;
+          background-size: 100%;
+}
+
+.s8_product {
+  position: absolute;
+  top: -25px;
+  right: 170px;
+
+  width: 100px;
+}
+
+.section8_logo_footer {
+  padding-top: 25px;
+  padding-left: 60px;
+
+  font-size: 74px;
+  color: #ffffff;
+}
+
+.section8_plank_text {
+  margin-left: -160px;
+  padding-top: 40px;
+  padding-right: 360px;
+
+  font-size: 45px;
+  line-height: 1.1;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.section8_plank_text strong {
+  font-size: 45px;
+  color: #df2245;
+}
+
+.section8_order {
+  width: 100%;
+  margin-top: 0;
+
+  -webkit-border-radius: 100px 0 0 100px;
+     -moz-border-radius: 100px 0 0 100px;
+          border-radius: 100px 0 0 100px;
+}
+
+.section8_footer {
+  position: relative;
+
+  margin-left: 40%;
+  padding-bottom: 60px;
+}
+
+.section8_shadow {
+  top: 1px;
+  left: 140px;
+}
+
+.s8_jojoba {
+  position: absolute;
+  top: 40px;
+  left: 480px;
+  z-index: 1;
+}
+
+.s8_girl {
+  position: absolute;
+  top: -30px;
+  left: -220px;
+}
+
+.cocos {
+  position: absolute;
+  top: 530px;
+  left: -150px;
+}
+
+.s8_olive {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.section8_leaf1 {
+  top: 400px;
+  left: -90px;
+}
+
+.section8_leaf2 {
+  top: 100px;
+  left: -210px;
+}
+
+.section8_leaf3 {
+  top: 170px;
+  left: 850px;
+}
+
+.section8_leaf4 {
+  top: 650px;
+  left: 610px;
+
+  -moz-transform: scale(0.7) rotate(85deg);
+   -ms-transform: scale(0.7) rotate(85deg);
+    -o-transform: scale(0.7) rotate(85deg);
+       transform: scale(0.7) rotate(85deg);
+}
+
+.section8_leaf5 {
+  top: 800px;
+  left: 70px;
+
+  -moz-transform: scale(0.5) rotate(15deg);
+   -ms-transform: scale(0.5) rotate(15deg);
+    -o-transform: scale(0.5) rotate(15deg);
+       transform: scale(0.5) rotate(15deg);
+}
+
+.section8_leaf6 {
+  top: 580px;
+  left: 530px;
+
+  -moz-transform: scale(0.3) rotate(15deg);
+   -ms-transform: scale(0.3) rotate(15deg);
+    -o-transform: scale(0.3) rotate(15deg);
+       transform: scale(0.3) rotate(15deg);
+}
+
+.section9 {
+  margin-top: -680px;
+  padding-top: 330px;
+
+  background: radial-gradient(circle closest-side at 80% 70%, rgba(243, 242, 220, 1) 40%, rgba(243, 242, 220, 0) 200%),
+  radial-gradient(circle closest-side at 55% 78%, rgba(242, 137, 135, 0.58) 0%, rgba(243, 242, 220, 0) 190%);
+}
+
+.section9_title {
+  position: relative;
+  z-index: 10;
+  max-width: 85%;
+  font-size: 54px;
+  text-align: center;
+}
+
+.section9_title strong {
+  color: #b0a815;
+}
+
+.section9_comments {
+  position: relative;
+  z-index: 10;
+
+  padding: 50px 0;
+}
+
+.section9_comments_item {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 30px;
+
+  background: url("../../../../viposidn.com/content/Bustelle_KR_Pink_sp/img/s9_line_main.png") no-repeat left top;
+}
+
+
+
+.section9_comments_item:nth-child(2) {
+  margin-top: -100px;
+  margin-left: 70px;
+
+  background: none;
+}
+
+.section9_comments_item:nth-child(3) {
+  margin-top: -100px;
+  margin-left: 0;
+
+  background: url("../../../../viposidn.com/content/Bustelle_KR_Pink_sp/img/s9_line2.png") no-repeat left top;
+}
+
+.section9_comments_item:nth-child(4) {
+  margin-top: -100px;
+  margin-left: 70px;
+
+  background: url("../../../../viposidn.com/content/Bustelle_KR_Pink_sp/img/s9_line_end.png") no-repeat left bottom;
+}
+
+.comments_item_content {
+  max-width: 380px;
+  margin-bottom: 10px;
+  margin-left: 150px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+
+  border-bottom: 2px dashed #fcd2a2;
+}
+
+.comments_item_title {
+  font-size: 24px;
+  color: #f7921c;
+  margin-bottom: 10px;
+}
+
+.comments_item_text {
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.text_outer_circle {
+  position: absolute;
+
+  width: 20px;
+  height: 20px;
+
+  border: 2px solid white;
+  -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+          border-radius: 50%;
+}
+
+.blue {
+  background-color: #1392da;
+}
+
+.red {
+  background-color: #e73134;
+}
+
+.orange {
+  background-color: #f29a08;
+}
+
+.green {
+  background-color: #c7bf14;
+}
+
+.diagram_clipping {
+  position: relative;
+}
+
+.diagram_wrapper {
+  position: absolute;
+  top: -60px;
+  right: 410px;
+}
+
+.diagram_circle1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 560px;
+  height: 560px;
+
+  border: 2px solid #ffffff;
+  -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+          border-radius: 50%;
+}
+
+.diagram_circle2 {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+
+  width: 500px;
+  height: 500px;
+
+  border: 2px solid #ffffff;
+  -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+          border-radius: 50%;
+}
+
+.diagram_arrows {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.s9_arrow {
+  position: absolute;
+  top: 200px;
+  left: 60px;
+}
+
+.s9_arrow2 {
+  top: 150px;
+  left: 430px;
+
+  -webkit-transform: scaleY(-1) scaleX(-1);
+     -moz-transform: scaleY(-1) scaleX(-1);
+      -ms-transform: scaleY(-1) scaleX(-1);
+       -o-transform: scaleY(-1) scaleX(-1);
+          transform: scaleY(-1) scaleX(-1);
+}
+
+.diagram_creme {
+  position: absolute;
+  top: 340px;
+  left: 50px;
+
+  -webkit-transform: scaleX(-1) rotate(30deg);
+     -moz-transform: scaleX(-1) rotate(30deg);
+      -ms-transform: scaleX(-1) rotate(30deg);
+       -o-transform: scaleX(-1) rotate(30deg);
+          transform: scaleX(-1) rotate(30deg);
+}
+
+.diagram_img {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+
+.diagram_text_inner {
+  position: absolute;
+  top: 280px;
+  left: 280px;
+}
+
+.diagram_text_outer {
+  position: absolute;
+  top: 490px;
+  left: 180px;
+
+  width: 260px;
+}
+
+.inner {
+  position: absolute;
+
+  font-weight: 700;
+  font-size: 32px;
+  color: #ffffff;
+}
+
+.inner1 {
+  top: -140px;
+  left: -43px;
+}
+
+.inner2 {
+  top: -60px;
+  left: -120px;
+}
+
+.inner3 {
+  top: -80px;
+  left: 50px;
+}
+
+.inner4 {
+  top: 90px;
+  left: -10px;
+}
+
+.text_outer_item {
+  float: left;
+  width: 130px;
+  padding-right: 5px;
+  padding-bottom: 10px;
+}
+
+.text_outer_text {
+  margin-left: 30px;
+
+  font-size: 20px;
+
+  font-weight: bold;
+}
+
+.section9_shadow {
+  top: 1px;
+  right: 25%;
+}
+
+.section9_leaf1 {
+  top: 50px;
+  left: -90px;
+}
+
+.section9_leaf2 {
+  top: 330px;
+  left: -130px;
+}
+
+.section9_leaf3 {
+  top: -30px;
+  left: 500px;
+  z-index: 1;
+}
+
+.section9_leaf4 {
+  top: 680px;
+  left: 260px;
+}
+
+.s9_olive {
+  position: absolute;
+  top: 44px;
+  left: 537px;
+  z-index: 9;
+}
+
+.s9_leaf {
+  position: absolute;
+  right: 80px;
+  bottom: -110px;
+  z-index: 1;
+}
+
+.s9_bust {
+  position: absolute;
+  right: 30px;
+  bottom: 0;
+  z-index: 1;
+
+  -webkit-transform: rotate(55deg);
+     -moz-transform: rotate(55deg);
+      -ms-transform: rotate(55deg);
+       -o-transform: rotate(55deg);
+          transform: rotate(55deg);
+}
+
+.section10 {
+  padding-bottom: 10px;
+}
+
+.section10_title {
+  padding: 10px 0;
+
+  font-size: 42px;
+  line-height: 60px;
+  text-align: center;
+}
+
+.section10_title strong {
+  color: #b0a815;
+}
+
+.calculator_clipping {
+  position: relative;
+  z-index: 9;
+
+  margin-top: 100px;
+  margin-bottom: 60px;
+}
+
+.calculator_bg {
+  position: absolute;
+  top: -15px;
+  left: -15px;
+
+  width: 600px;
+  height: 600px;
+
+  background: #f7921c;
+  -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+          border-radius: 50%;
+}
+
+.calculator_wrapper {
+  position: relative;
+
+  width: 570px;
+  height: 570px;
+  padding: 80px 90px 0;
+
+  background: #ffffff;
+  -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+          border-radius: 50%;
+}
+
+.calc_result_wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  padding: 20px 90px 20px;
+
+  font-family: "Open Sans", sans-serif;
+
+  -webkit-transition: all 0.5s;
+     -moz-transition: all 0.5s;
+      -ms-transition: all 0.5s;
+       -o-transition: all 0.5s;
+          transition: all 0.5s;
+}
+
+.error_msg {
+  position: absolute;
+  top: 130px;
+  left: 130px;
+
+  display: none;
+  margin-right: -20px;
+  margin-left: -20px;
+  padding-bottom: 10px;
+
+  font-weight: 700;
+  font-size: 28px;
+  text-align: center;
+  color: #e25a36;
+
+  opacity: 0;
+}
+
+.calc_result_hide {
+  /*left: -100%;*/
+  z-index: -99;
+
+  opacity: 0;
+}
+
+.calc_result_show {
+  z-index: 99;
+
+  display: block;
+  /*left: 0;*/
+
+  opacity: 1;
+
+  -webkit-transition: all 0.5s;
+     -moz-transition: all 0.5s;
+      -ms-transition: all 0.5s;
+       -o-transition: all 0.5s;
+          transition: all 0.5s;
+}
+
+.calc_result_header {
+  width: 260px;
+  margin: 0 auto;
+  padding: 40px 10px 10px;
+
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+  color: #f7921c;
+
+  border-bottom: 2px solid #f7921c;
+}
+
+.calc_result_content {
+  padding: 10px 0 20px;
+}
+
+.calc_result_title {
+  padding: 30px 0 10px;
+
+  font-weight: 700;
+  font-size: 28px;
+  text-align: center;
+  color: black;
+}
+
+.calc_result_text {
+  font-size: 19px;
+  line-height: 27px;
+  text-align: center;
+  color: black;
+}
+
+.calc_result_text strong {
+  color: #b0a815;
+}
+
+.calculator_title {
+  padding-bottom: 10px;
+
+  font-size: 24px;
+  text-align: center;
+}
+
+.calculator_title strong {
+  color: #f7921c;
+}
+
+.calculator_input {
+  display: block;
+  width: 100%;
+  height: 50px;
+  margin-bottom: 5px;
+  padding-left: 10px;
+
+  line-height: 200%;
+
+  border: 1px solid #f7921c;
+  -webkit-border-radius: 10px;
+     -moz-border-radius: 10px;
+          border-radius: 10px;
+  outline: none;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  margin: 0;
+
+  -webkit-appearance: none;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+select {
+   -khtml-appearance: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+       -o-appearance: none;
+          appearance: none;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+select {
+  background: url("../../../../viposidn.com/content/Bustelle_KR_Pink_sp/img/custom_select.png") no-repeat 97% center;
+  cursor: pointer;
+
+  -webkit-appearance: none;
+     -moz-appearance: none;
+      -ms-appearance: none !important;
+          appearance: none !important;
+}
+
+.calculator_input option {
+  font-weight: 700;
+  color: #f7921c;
+}
+
+.select_button {
+  width: 100%;
+  margin-top: 10px;
+  padding: 18px;
+
+  font-size: 30px;
+  text-align: center;
+}
+
+.s10_creme {
+  position: absolute;
+  top: 300px;
+  left: 20px;
+
+  -webkit-transform: rotate(-15deg);
+     -moz-transform: rotate(-15deg);
+      -ms-transform: rotate(-15deg);
+       -o-transform: rotate(-15deg);
+          transform: rotate(-15deg);
+}
+
+.s10_girl {
+  position: absolute;
+  top: -70px;
+  right: 0;
+}
+
+.s10_jojoba {
+  position: absolute;
+  right: 270px;
+  bottom: 0;
+}
+
+.s10_bust {
+  position: absolute;
+  top: -120px;
+  left: -130px;
+}
+
+.calculator_shadow {
+  top: 11px;
+  z-index: -1;
+}
+
+.section11 {
+  background: url("../../../../viposidn.com/content/Bustelle_KR_Pink_sp/img/s11_bg.png") no-repeat 95% center;
+}
+
+.expert_wrapper {
+  position: relative;
+
+  padding: 200px 0 100px;
+}
+
+.expert_aside {
+  position: absolute;
+
+  width: 430px;
+  height: 430px;
+  overflow: hidden;
+
+  border: 3px solid #1ca2f7;
+  -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+          border-radius: 50%;
+  -webkit-box-shadow: inset -1px 7px 27px rgba(0, 0, 0, 0.45);
+     -moz-box-shadow: inset -1px 7px 27px rgba(0, 0, 0, 0.45);
+          box-shadow: inset -1px 7px 27px rgba(0, 0, 0, 0.45);
+}
+
+.expert {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.expert_olive {
+  position: absolute;
+  bottom: 70px;
+  left: 150px;
+  z-index: -2;
+}
+
+.overlap_clipping {
+  position: relative;
+}
+
+.expert_aside_overlap {
+  position: absolute;
+  top: 0;
+  left: 270px;
+  z-index: 1;
+
+  width: 430px;
+  height: 430px;
+
+  background-color: #ffffff;
+  border-left: 4px solid #1da6f7;
+  -webkit-border-radius: 70% 0 20% 40%;
+     -moz-border-radius: 70% 0 20% 40%;
+          border-radius: 70% 0 20% 40%;
+  -webkit-box-shadow: -5px 0 2px rgba(0, 0, 0, 0.05);
+     -moz-box-shadow: -5px 0 2px rgba(0, 0, 0, 0.05);
+          box-shadow: -5px 0 2px rgba(0, 0, 0, 0.05);
+}
+
+.expert_title {
+  padding-bottom: 60px;
+  padding-left: 15px;
+
+  font-size: 54px;
+  text-align: left;
+}
+
+.expert_title strong {
+  color: #1da6f7;
+}
+
+.expert_title_shadow {
+  top: 23px;
+  left: -45px;
+
+  width: 100%;
+
+  opacity: 0.4;
+}
+
+.expert_text {
+  font-size: 15px;
+    line-height: 150%;
+    font-weight: bolder;
+    font-family: revert;
+    text-align: justify;
+}
+
+.expert_text strong {
+  color: #f7921c;
+}
+
+.expert_text p {
+  padding: 10px 15px;
+}
+
+.expert_content {
+  position: relative;
+  z-index: 10;
+
+  width: auto;
+  margin-top: -70px;
+  margin-left: 320px;
+  padding-left: 80px;
+
+  background: linear-gradient(to left, rgba(255, 255, 255, 0.65) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.expert_aside_text {
+  position: absolute;
+  top: 470px;
+  left: 10px;
+  z-index: 2;
+
+  width: 360px;
+  padding: 5px 30px 5px 50px;
+
+  font-size: 16px;
+  color: #ffffff;
+  font-style: italic;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.55);
+
+  background: rgb(28, 162, 247);
+  background: linear-gradient(to bottom, rgb(28, 162, 247) 0%, rgb(92, 189, 247) 100%);
+  border: 1px solid #1c8fdc;
+  -webkit-border-radius: 0 100px 100px 0;
+     -moz-border-radius: 0 100px 100px 0;
+          border-radius: 0 100px 100px 170px;
+  -webkit-box-shadow: 2px 3px 15px rgba(0, 0, 0, 0.4);
+     -moz-box-shadow: 2px 3px 15px rgba(0, 0, 0, 0.4);
+          box-shadow: 2px 3px 15px rgba(0, 0, 0, 0.4);
+  line-height: 130%;
+}
+
+.expert_aside_text strong {
+  font-size: 22px;
+}
+
+.s11_creme {
+  position: absolute;
+  top: -50px;
+  right: -80px;
+}
+
+.s11_olive_top {
+  position: absolute;
+  top: -30px;
+  right: 20%;
+}
+
+.section11_leaf1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.section11_leaf7 {
+  top: 760px;
+  left: 800px;
+
+  -webkit-transform: rotate(145deg);
+     -moz-transform: rotate(145deg);
+      -ms-transform: rotate(145deg);
+       -o-transform: rotate(145deg);
+          transform: rotate(145deg);
+}
+
+.section12 {
+  z-index: 1;
+
+  padding: 0 0 350px 0;
+
+  background: radial-gradient(circle closest-side at 80% 50%, rgba(243, 242, 220, 1) 40%, rgba(243, 242, 220, 0) 150%),
+  radial-gradient(circle closest-side at 15% 35%, rgba(254, 236, 216, 0.58) 0%, rgba(243, 242, 220, 0) 190%);
+}
+
+.title_wrapper {
+  margin-top: 200px;
+  padding-bottom: 276px;
+
+  text-align: center;
+
+  background: url("../../../../viposidn.com/content/Bustelle_KR_Pink_sp/image/s12_girl.png") no-repeat 50% bottom;
+}
+
+.image_clipping {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.s12_bust {
+  position: absolute;
+  top: -60px;
+  right: -570px;
+  z-index: 10;
+}
+
+.s12_creme {
+  position: absolute;
+  top: -80px;
+  left: -210px;
+
+  -webkit-transform: scaleX(-1);
+     -moz-transform: scaleX(-1);
+      -ms-transform: scaleX(-1);
+       -o-transform: scaleX(-1);
+          transform: scaleX(-1);
+}
+
+.s12_product {
+  position: absolute;
+  top: 90px;
+  left: -180px;
+
+  width: 165px;
+}
+
+.s12_olive {
+  position: absolute;
+  bottom: -65px;
+  left: -45px;
+}
+
+.section12_leaf1 {
+  top: 60px;
+  left: -200px;
+}
+
+.s12_girl {
+  position: absolute;
+  bottom: -170px;
+  left: 270px;
+  z-index: 8;
+
+  max-height: 240px;
+}
+
+.section12_title {
+  position: relative;
+
+  display: inline-block;
+  max-width: 700px;
+  margin: 0 auto;
+
+  font-weight: 700;
+  font-size: 54px;
+  text-align: right;
+  color: #f7921c;
+  text-transform: uppercase;
+  letter-spacing: 9px;
+}
+
+.section12_title .big {
+  /*margin-bottom: -60px;*/
+  display: block;
+  max-width: 660px;
+  padding-right: 80px;
+}
+
+.section12_title strong {
+  display: block;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  padding-right: 45px;
+  font-weight: 700;
+  color: #b0a815;
+  TEXT-ALIGN: LEFT;
+  MAX-WIDTH: 80%;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0;
+}
+
+.section12_title_plank {
+  position: relative;
+  z-index: 9;
+
+  max-width: 670px;
+  margin-top: 30px;
+  padding: 8% 80px 20% 68px;
+
+  font-size: 45px;
+  text-align: right;
+  color: #ffffff;
+
+  background: url("../../../../viposidn.com/content/Bustelle_KR_Pink_sp/img/s12_plank.png") no-repeat top left;
+  -webkit-background-size: 100% 100%;
+          background-size: 100% 100%;
+  line-height: 160%;
+  letter-spacing: 0;
+}
+
+.section12_footer {
+  position: relative;
+
+  margin-top: -184px;
+  margin-right: 56%;
+  padding-bottom: 60px;
+}
+
+.section12_button {
+  font-size: 28px;
+}
+
+.section12_order {
+  margin-left: 0;
+
+  text-align: right;
+
+  border-radius: 0 100px 100px 0;
+}
+
+.section12_footer_shadow {
+  right: 70px;
+}
+
+.section12_leaf3 {
+  top: 70px;
+  left: 750px;
+}
+
+.section12_leaf1 {
+  top: 760px;
+  left: 630px;
+}
+
+.section12_leaf2 {
+  top: 780px;
+  left: 410px;
+
+  -moz-transform: scale(0.5) rotate(45deg);
+   -ms-transform: scale(0.5) rotate(45deg);
+    -o-transform: scale(0.5) rotate(45deg);
+       transform: scale(0.5) rotate(45deg);
+}
+
+.section12_leaf5 {
+  top: 720px;
+  left: 200px;
+}
+
+.section12_leaf4 {
+  top: 650px;
+  left: 610px;
+  z-index: 10;
+
+  -moz-transform: scale(0.7) rotate(85deg);
+   -ms-transform: scale(0.7) rotate(85deg);
+    -o-transform: scale(0.7) rotate(85deg);
+       transform: scale(0.7) rotate(85deg);
+}
+
+.section13 {
+  margin-top: -290px;
+}
+
+.section13_left {
+  font-size: 83px;
+}
+
+.section13_content {
+  position: relative;
+  z-index: 11;
+
+}
+
+.step_arrow {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  -webkit-transform: scale(0.5) scaleX(-1);
+     -moz-transform: scale(0.5) scaleX(-1);
+      -ms-transform: scale(0.5) scaleX(-1);
+       -o-transform: scale(0.5) scaleX(-1);
+          transform: scale(0.5) scaleX(-1);
+}
+
+.step_arrow1 {
+  top: 70px;
+  left: 170px;
+
+  -webkit-transform: scale(0.5) scaleX(-1) rotate(45deg);
+     -moz-transform: scale(0.5) scaleX(-1) rotate(45deg);
+      -ms-transform: scale(0.5) scaleX(-1) rotate(45deg);
+       -o-transform: scale(0.5) scaleX(-1) rotate(45deg);
+          transform: scale(0.5) scaleX(-1) rotate(45deg);
+}
+
+.step_arrow2 {
+  top: 95px;
+  left: 120px;
+
+  -webkit-transform: scale(0.5) scaleX(-1) rotate(-25deg);
+     -moz-transform: scale(0.5) scaleX(-1) rotate(-25deg);
+      -ms-transform: scale(0.5) scaleX(-1) rotate(-25deg);
+       -o-transform: scale(0.5) scaleX(-1) rotate(-25deg);
+          transform: scale(0.5) scaleX(-1) rotate(-25deg);
+}
+
+.step_arrow3 {
+  top: -30px;
+  left: -150px;
+
+  -webkit-transform: scale(0.5) scaleX(-1) rotate(-95deg);
+     -moz-transform: scale(0.5) scaleX(-1) rotate(-95deg);
+      -ms-transform: scale(0.5) scaleX(-1) rotate(-95deg);
+       -o-transform: scale(0.5) scaleX(-1) rotate(-95deg);
+          transform: scale(0.8) scaleX(-1) rotate(-115deg);
+}
+
+.section13_left strong {
+  color: red;
+}
+
+.section13_left {
+  position: absolute;
+  bottom: 210px;
+  z-index: 99;
+  /*position:           relative;*/
+
+  width: 550px;
+
+  font-size: 83px;
+  text-align: right;
+  /*margin-top:         190px;*/
+  /*margin-left:        -170px;*/
+
+  -webkit-transition: all 0.5s;
+     -moz-transition: all 0.5s;
+      -ms-transition: all 0.5s;
+       -o-transition: all 0.5s;
+          transition: all 0.5s;
+
+}
+
+.s13_girl {
+  position: absolute;
+  top: -90px;
+  left: 260px;
+}
+
+.section13_right {
+  position: relative;
+}
+
+.section13_right {
+  width: 600px;
+  margin-right: 0;
+  margin-left: 510px;
+  /*width:        600px;*/
+  /*margin-left:  -50px;*/
+  /*margin-right: -120px;*/
+}
+
+.section13_steps_item {
+  position: relative;
+
+  margin-bottom: 30px;
+}
+
+
+
+.section13_steps_item:nth-child(2) {
+  margin-right: -60px;
+  margin-left: 60px;
+}
+
+
+
+.section13_steps_item:nth-child(3) .step_count {
+  top: -10px;
+  left: 100px;
+}
+
+.section13_steps_item:nth-child(1) .section13_steps_right {
+  padding-top: 40px;
+}
+
+.section13_steps_item:nth-child(2) .section13_steps_right {
+  padding-top: 10px;
+}
+
+.section13_steps_item:nth-child(3) .section13_steps_right {
+  padding-top: 50px;
+}
+
+.steps_item_circle {
+  position: relative;
+
+  width: 183px;
+  height: 183px;
+  overflow: hidden;
+
+  background-color: #828282;
+  border: 6px solid #f7921c;
+  -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+          border-radius: 50%;
+  box-shadow: inset -6px 7px 7px rgba(0, 0, 0, 0.38);
+}
+
+.steps_item_image1 {
+  background: url("../../../../viposidn.com/content/Bustelle_KR_Pink_sp/image/s13_step1.png") no-repeat left top;
+}
+
+.steps_item_image2 {
+  background: url("../../../../viposidn.com/content/Bustelle_KR_Pink_sp/image/s13_step2.png") no-repeat left top;
+}
+
+.steps_item_image3 {
+  background: url("../../../../viposidn.com/content/Bustelle_KR_Pink_sp/image/s13_step3.png") no-repeat left top;
+}
+
+.section13_footer_text {
+  position: relative;
+
+  margin-left: 50%;
+
+  font-size: 22px;
+  text-align: left;
+  color: white;
+
+  -webkit-transition: all 0.5s;
+     -moz-transition: all 0.5s;
+      -ms-transition: all 0.5s;
+       -o-transition: all 0.5s;
+          transition: all 0.5s;
+}
+
+.section13_footer_text p {
+  padding: 10px 0;
+  line-height: 130%;
+  text-align: center;
+}
+
+.s13_footer_girl {
+  position: absolute;
+  bottom: -30px;
+  left: -250px;
+}
+
+.section13_steps_right {
+  margin-left: 200px;
+}
+
+.section13_steps {
+  padding-top: 10px;
+
+  font-size: 20px;
+
+  line-height: 130%;
+}
+
+.section13_steps strong {
+  font-size: 22px;
+}
+
+.s13_olive {
+  position: absolute;
+  top: 90px;
+  left: -110px;
+}
+
+.s13_bg_girl {
+  position: absolute;
+  top: 120px;
+  left: 20%;
+}
+
+.section13_leafs {
+  top: 412px;
+  left: 350px;
+
+  -webkit-transform: rotate(90deg);
+     -moz-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+       -o-transform: rotate(90deg);
+          transform: rotate(86deg);
+}
+
+.s13_creme {
+  position: absolute;
+  top: 0;
+  left: 230px;
+  z-index: -1;
+
+  -webkit-transform: scale(0.5) rotate(166deg);
+     -moz-transform: scale(0.5) rotate(166deg);
+      -ms-transform: scale(0.5) rotate(166deg);
+       -o-transform: scale(0.5) rotate(166deg);
+          transform: scale(0.5) rotate(166deg);
+}
+
+.section13_footer_plank {
+  position: relative;
+  z-index: 10;
+
+  padding-top: 30px;
+  padding-right: 40px;
+  padding-bottom: 30px;
+}
+
+.section13_footer {
+  position: relative;
+  z-index: 10;
+
+  margin-top: 90px;
+  margin-right: 33%;
+
+  text-align: right;
+
+  background: #df2245 linear-gradient(75deg, #df2245 0%, #f7921c 100%);
+  border: 1px solid white;
+  -webkit-border-radius: 0 100px 100px 0;
+     -moz-border-radius: 0 100px 100px 0;
+          border-radius: 0 100px 100px 0;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.4);
+
+  -webkit-transition: all 0.5s;
+     -moz-transition: all 0.5s;
+      -ms-transition: all 0.5s;
+       -o-transition: all 0.5s;
+          transition: all 0.5s;
+}
+
+.section13_footer_shadow {
+  top: 1px;
+  right: 60px;
+}
+
+.section14 {
+  margin-top: -180px;
+  padding-top: 180px;
+  padding-bottom: 100px;
+}
+
+.section14_plank .text_line1 {
+  margin-top: 30px;
+  margin-left: 65px;
+}
+
+.section4_header_title {
+  display: none;
+}
+.section14_title {
+  padding: 100px 260px 20px 40px;
+
+  font-size: 56px;
+  text-align: center;
+}
+
+.section14_plank {
+  z-index: 10;
+
+  max-width: 780px;
+  padding: 11px 105px 45px 85px;
+
+  font-weight: 700;
+  font-size: 60px;
+  text-transform: uppercase;
+
+  -webkit-background-size: cover;
+          background-size: cover;
+}
+
+.ps {
+  display: none;
+
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 2;
+  text-align: center;
+}
+
+.section14_leaf1 {
+  top: 440px;
+  left: 630px;
+}
+
+.section14_leaf4 {
+  top: 40px;
+  left: 610px;
+  z-index: 10;
+
+  -moz-transform: scale(0.7) rotate(85deg);
+   -ms-transform: scale(0.7) rotate(85deg);
+    -o-transform: scale(0.7) rotate(85deg);
+       transform: scale(0.7) rotate(85deg);
+}
+
+.section14_leaf2 {
+  top: 280px;
+  left: 410px;
+
+  -moz-transform: scale(0.5) rotate(45deg);
+   -ms-transform: scale(0.5) rotate(45deg);
+    -o-transform: scale(0.5) rotate(45deg);
+       transform: scale(0.5) rotate(45deg);
+}
+
+.section14_leaf5 {
+  top: 430px;
+  left: 200px;
+}
+
+
+
+.section14_button {
+  z-index: 13;
+
+  margin-top: 20px;
+  margin-bottom: 140px;
+  margin-left: 230px;
+}
+
+.s14_product,
+.s14_jojoba {
+  position: absolute;
+  top: -70px;
+  right: -180px;
+
+  width: 140px;
+}
+
+.s14_jojoba {
+  top: 10px;
+  right: -300px;
+}
+
+.s14_bust {
+  position: absolute;
+  bottom: -230px;
+  left: 10px;
+  z-index: 11;
+
+  -webkit-transform: rotate(45deg);
+     -moz-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+       -o-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.section15 {
+  position: relative;
+  z-index: 1;
+
+  margin-top: -100px;
+  padding: 110px 0 250px;
+
+  background: radial-gradient(circle closest-side at 80% 33%, rgba(243, 242, 220, 1) 40%, rgba(243, 242, 220, 0) 200%),
+  radial-gradient(circle closest-side at 20% 34%, rgba(242, 190, 166, 0.58) 0%, rgba(243, 242, 220, 0) 190%);
+}
+
+.section15_girls {
+  position: relative;
+  z-index: 10;
+
+  padding-bottom: 120px;
+
+  background: radial-gradient(circle closest-side at 50% 67%, rgba(242, 137, 135, 0.58) 0%, rgba(243, 242, 220, 0) 190%);
+}
+
+.section15_leafs {
+  position: absolute;
+  top: 790px;
+  left: 770px;
+
+  -webkit-transform: scaleY(-1);
+     -moz-transform: scaleY(-1);
+      -ms-transform: scaleY(-1);
+       -o-transform: scaleY(-1);
+          transform: scaleY(-1);
+}
+
+.section15_plank_text strong {
+  font-size: 25px;
+}
+
+.section15_girls_bg {
+  position: absolute;
+  top: -10px;
+  z-index: 0;
+
+  width: 420px;
+  height: 420px;
+  margin-left: 290px;
+}
+
+.section15_bg_circle1 {
+  position: absolute;
+  left: 50%;
+
+  width: 410px;
+  height: 410px;
+  margin-left: -205px;
+
+  border: 2px solid #ddd195;
+  -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+          border-radius: 50%;
+}
+
+.section15_bg_circle2 {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+
+  width: 390px;
+  height: 390px;
+  margin-left: -195px;
+
+  border: 2px solid #ddd195;
+  -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+          border-radius: 50%;
+}
+
+.section15_girls_item {
+  float: left;
+  width: 320px;
+  padding: 10px 35px;
+}
+
+.section15_girls_item:nth-child(2) {
+  margin-top: 60px;
+}
+
+.section15_item_top {
+  margin-bottom: -20px;
+}
+
+.section15_item_top {
+  position: relative;
+
+  margin-left: 30px;
+}
+
+.section15_top_bg {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  z-index: 0;
+
+  width: 220px;
+  height: 220px;
+  margin-left: -110px;
+
+  background: #df2245;
+  -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+          border-radius: 50%;
+  -webkit-box-shadow: inset 15px 8px 10px rgba(0, 0, 0, 0.71), 0 15px 20px rgba(0, 0, 0, 0.7);
+     -moz-box-shadow: inset 15px 8px 10px rgba(0, 0, 0, 0.71), 0 15px 20px rgba(0, 0, 0, 0.7);
+          box-shadow: inset 15px 8px 10px rgba(0, 0, 0, 0.71), 0 15px 20px rgba(0, 0, 0, 0.7);
+}
+
+.section15_top_bg2 {
+  background: #b0a815;
+}
+
+.section15_top_bg3 {
+  background: #f7921c;
+}
+
+.section15_top_img1 {
+  margin-top: -20px;
+  margin-left: -10px;
+}
+
+.section15_top_img2 {
+  margin-top: -16px;
+  width: 100%;
+}
+
+.section15_top_img3 {
+  margin-top: -21px;
+  width: 100%;
+}
+
+.s15_olive {
+  position: absolute;
+  top: 390px;
+  left: 20px;
+  z-index: -1;
+}
+
+.s15_creme {
+  position: absolute;
+  right: 170px;
+  bottom: -30px;
+  z-index: -1;
+
+  -webkit-transform: rotate(-90deg);
+     -moz-transform: rotate(-90deg);
+      -ms-transform: rotate(-90deg);
+       -o-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
+.section15_item_plank {
+  min-width: 286px;
+  min-height: 272px;
+  padding: 50px 30px 125px;
+
+  font-size: 20px;
+  text-align: center;
+  color: white;
+
+  background: url("../../../../viposidn.com/content/Bustelle_KR_Pink_sp/img/s15_plank1.png") no-repeat left top;
+  -webkit-background-size: 100% 100%;
+          background-size: 100% 100%;
+}
+
+.section15_item_plank2 {
+  background: url("../../../../viposidn.com/content/Bustelle_KR_Pink_sp/img/s15_plank2.png") no-repeat left top;
+  -webkit-background-size: 100% 100%;
+          background-size: 100% 100%;
+}
+
+.section15_item_plank3 {
+  background: url("../../../../viposidn.com/content/Bustelle_KR_Pink_sp/img/s15_plank3.png") no-repeat left top;
+  -webkit-background-size: 100% 100%;
+          background-size: 100% 100%;
+}
+
+.section15_plank_icon {
+  position: relative;
+
+  width: 60px;
+  height: 60px;
+  margin: 0 auto;
+  margin-bottom: 7px;
+
+  -webkit-background-size: 100%;
+          background-size: 100%;
+}
+
+.section15_plank_icon1 {
+  background: url("../../../../viposidn.com/content/Bustelle_KR_Pink_sp/img/s15_icon1.png") no-repeat left top;
+}
+
+.section15_plank_icon2 {
+  background: url("../../../../viposidn.com/content/Bustelle_KR_Pink_sp/img/s15_icon2.png") no-repeat left top;
+}
+
+.section15_plank_icon3 {
+  background: url("../../../../viposidn.com/content/Bustelle_KR_Pink_sp/img/s15_icon3.png") no-repeat left top;
+}
+
+.section15_top_overflow {
+  position: relative;
+  z-index: 1;
+
+  width: 220px;
+  height: 220px;
+  /*overflow: hidden;*/
+  margin: 0 auto;
+
+  -webkit-border-radius: 50% 50% 50% 50%;
+     -moz-border-radius: 50% 50% 50% 50%;
+          border-radius: 50% 50% 50% 50%;
+}
+
+.section16 {
+  z-index: 0;
+
+  margin-top: -210px;
+  padding: 100px 0;
+}
+
+.magazine_wrapper {
+  z-index: 99;
+
+  display: table;
+  width: 980px;
+}
+
+.magazine_shadow1,
+.magazine_shadow2 {
+  position: absolute;
+  bottom: -68px;
+}
+
+.magazine_shadow1 {
+  -webkit-transform: scaleX(-1);
+     -moz-transform: scaleX(-1);
+      -ms-transform: scaleX(-1);
+       -o-transform: scaleX(-1);
+          transform: scaleX(-1);
+}
+
+.magazine_shadow2 {
+  right: 0;
+}
+
+.magazine_wrapper_left,
+.magazine_wrapper_right {
+  position: relative;
+
+  display: table-cell;
+  float: none;
+  width: 490px;
+  overflow: hidden;
+
+  vertical-align: top;
+}
+
+.magazine_wrapper_left {
+  -webkit-box-shadow: -1px 1px 0 rgb(75, 75, 75), -2px 2px 0 rgb(255, 255, 255), -3px 3px 0 rgb(75, 75, 75), -4px 4px 0 rgb(255, 255, 255), -5px 5px 0 rgb(75, 75, 75), -6px 6px 0 rgb(255, 255, 255), -7px 7px 0 rgb(75, 75, 75), -8px 8px 0 rgb(255, 255, 255), -9px 9px 0 rgb(75, 75, 75), -10px 10px 0 rgb(255, 255, 255), -11px 11px 0 rgb(75, 75, 75);
+     -moz-box-shadow: -1px 1px 0 rgb(75, 75, 75), -2px 2px 0 rgb(255, 255, 255), -3px 3px 0 rgb(75, 75, 75), -4px 4px 0 rgb(255, 255, 255), -5px 5px 0 rgb(75, 75, 75), -6px 6px 0 rgb(255, 255, 255), -7px 7px 0 rgb(75, 75, 75), -8px 8px 0 rgb(255, 255, 255), -9px 9px 0 rgb(75, 75, 75), -10px 10px 0 rgb(255, 255, 255), -11px 11px 0 rgb(75, 75, 75);
+          box-shadow: -1px 1px 0 rgb(75, 75, 75), -2px 2px 0 rgb(255, 255, 255), -3px 3px 0 rgb(75, 75, 75), -4px 4px 0 rgb(255, 255, 255), -5px 5px 0 rgb(75, 75, 75), -6px 6px 0 rgb(255, 255, 255), -7px 7px 0 rgb(75, 75, 75), -8px 8px 0 rgb(255, 255, 255), -9px 9px 0 rgb(75, 75, 75), -10px 10px 0 rgb(255, 255, 255), -11px 11px 0 rgb(75, 75, 75);
+}
+
+.magazine_wrapper_right {
+  -webkit-box-shadow: 1px 1px 0 rgb(75, 75, 75), 2px 2px 0 rgb(255, 255, 255), 3px 3px 0 rgb(75, 75, 75), 4px 4px 0 rgb(255, 255, 255), 5px 5px 0 rgb(75, 75, 75), 6px 6px 0 rgb(255, 255, 255), 7px 7px 0 rgb(75, 75, 75), 8px 8px 0 rgb(255, 255, 255), 9px 9px 0 rgb(75, 75, 75), 10px 10px 0 rgb(255, 255, 255), 11px 11px 0 rgb(75, 75, 75);
+     -moz-box-shadow: 1px 1px 0 rgb(75, 75, 75), 2px 2px 0 rgb(255, 255, 255), 3px 3px 0 rgb(75, 75, 75), 4px 4px 0 rgb(255, 255, 255), 5px 5px 0 rgb(75, 75, 75), 6px 6px 0 rgb(255, 255, 255), 7px 7px 0 rgb(75, 75, 75), 8px 8px 0 rgb(255, 255, 255), 9px 9px 0 rgb(75, 75, 75), 10px 10px 0 rgb(255, 255, 255), 11px 11px 0 rgb(75, 75, 75);
+          box-shadow: 1px 1px 0 rgb(75, 75, 75), 2px 2px 0 rgb(255, 255, 255), 3px 3px 0 rgb(75, 75, 75), 4px 4px 0 rgb(255, 255, 255), 5px 5px 0 rgb(75, 75, 75), 6px 6px 0 rgb(255, 255, 255), 7px 7px 0 rgb(75, 75, 75), 8px 8px 0 rgb(255, 255, 255), 9px 9px 0 rgb(75, 75, 75), 10px 10px 0 rgb(255, 255, 255), 11px 11px 0 rgb(75, 75, 75);
+}
+
+.magazine_plank {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+
+  height: 200px;
+
+  background: #db2144;
+  transform: skewY(3deg);
+}
+
+.left_plank_top {
+  top: -186px;
+  bottom: inherit;
+  z-index: 3;
+
+  background: #f2921c;
+  transform: skewY(2deg);
+}
+
+.left_plank_bottom {
+  position: absolute;
+  top: inherit;
+  right: 0;
+  bottom: -180px;
+  left: 0;
+  z-index: 2;
+
+  height: 200px;
+
+  background: #db2144;
+  transform: skewY(3deg);
+}
+
+.right_plank_top {
+  top: inherit;
+  bottom: -180px;
+}
+
+.right_plank_bottom {
+  top: -186px;
+  bottom: inherit;
+  z-index: 3;
+
+  background: #f2921c;
+  transform: skewY(-2deg);
+}
+
+.magazine_pager {
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  z-index: 9;
+
+  width: 22px;
+  height: 22px;
+  padding: 3px 2px 1px 1px;
+
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 12px;
+  text-align: center;
+  color: #ffffff;
+
+  background: #db2144;
+  border: 2px solid #ffffff;
+  -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+          border-radius: 50%;
+}
+
+.blog_magazine {
+  position: absolute;
+  z-index: 9;
+
+  font-size: 22px;
+  font-family: "Open Sans", sans-serif;
+  color: #dbd4cf;
+  text-shadow: 0 0 5px #000000;
+}
+
+.blog_magazine strong {
+  color: #ca1a3b;
+}
+
+.blog_magazine_bottom {
+  bottom: 0;
+  left: 45%;
+}
+
+.blog_magazine_top {
+  top: 197px;
+  left: 45%;
+}
+
+.m_product_bottom {
+  position: absolute;
+  bottom: 20px;
+  left: 100px;
+
+  width: 100px;
+}
+
+.magazine_wrapper_left_shadow {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 4;
+
+  -webkit-box-shadow: inset -10px 0 115px rgba(0, 0, 0, 0.41), inset -10px 0 85px rgba(0, 0, 0, 0.3), inset -10px 0 25px rgba(0, 0, 0, 0.4);
+     -moz-box-shadow: inset -10px 0 115px rgba(0, 0, 0, 0.41), inset -10px 0 85px rgba(0, 0, 0, 0.3), inset -10px 0 25px rgba(0, 0, 0, 0.4);
+          box-shadow: inset -10px 0 115px rgba(0, 0, 0, 0.41), inset -10px 0 85px rgba(0, 0, 0, 0.3), inset -10px 0 25px rgba(0, 0, 0, 0.4);
+}
+
+.magazine_wrapper_right_shadow {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 4;
+
+  -webkit-box-shadow: inset 10px 0 115px rgba(0, 0, 0, 0.41), inset 10px 0 85px rgba(0, 0, 0, 0.3), inset 10px 0 25px rgba(0, 0, 0, 0.4);
+     -moz-box-shadow: inset 10px 0 115px rgba(0, 0, 0, 0.41), inset 10px 0 85px rgba(0, 0, 0, 0.3), inset 10px 0 25px rgba(0, 0, 0, 0.4);
+          box-shadow: inset 10px 0 115px rgba(0, 0, 0, 0.41), inset 10px 0 85px rgba(0, 0, 0, 0.3), inset 10px 0 25px rgba(0, 0, 0, 0.4);
+}
+
+.magazine_wrapper_left_header {
+  position: relative;
+}
+
+.magazine_left_header_content_back {
+  position: absolute;
+  bottom: -10px;
+  z-index: 2;
+
+  width: 530px;
+  height: 200%;
+
+  background: radial-gradient(ellipse farthest-corner at 50% 35%, rgb(255, 255, 255) 0%, #f7f7f7 82%, rgba(239, 239, 239, 0.67) 182%);
+  -webkit-box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
+     -moz-box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
+  transform: skewY(-5deg);
+}
+
+.magazine_left_header_content_overflow {
+  position: relative;
+  z-index: 3;
+}
+
+.magazine_product,
+.magazine_girl_lt,
+.s16_olive,
+.s16_olive2 {
+  position: absolute;
+}
+
+.magazine_right_header_title {
+  padding: 10px 25px;
+
+  font-weight: 700;
+  font-size: 24px;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+
+  background: #db2144;
+  -webkit-border-radius: 50px;
+     -moz-border-radius: 50px;
+          border-radius: 50px;
+}
+
+.magazine_right_header_description {
+  padding: 5px 67px 20px 20px;
+
+  font-weight: 700;
+  font-size: 16px;
+  text-align: left;
+}
+
+.description_logo {
+  position: relative;
+
+  display: inline-block;
+  min-width: inherit;
+
+  font-size: 52px;
+  text-align: left;
+  color: #db2144;
+  letter-spacing: -6px;
+}
+
+.m_girl_rt1,
+.m_girl_rt2 {
+  position: absolute;
+  z-index: 0;
+}
+
+.m_girl_rt1 {
+  bottom: -40px;
+  left: 0;
+
+  width: 100px;
+}
+
+.m_girl_rt2 {
+  right: -10px;
+  bottom: -10px;
+
+  width: 120px;
+}
+
+.description_logo strong {
+  position: absolute;
+  right: -90%;
+  bottom: 12%;
+
+  display: block;
+  max-width: 140px;
+
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  font-family: "Open Sans", sans-serif;
+  color: #f2921c;
+  letter-spacing: 1px;
+}
+
+.magazine_right_header_text {
+  position: relative;
+
+  padding: 10px 100px 10px 20px;
+
+  text-align: right;
+}
+
+.magazine_product_right_top {
+  position: absolute;
+  top: 10%;
+  right: 0;
+
+  display: block;
+  width: 100px;
+  height: 100px;
+
+  background: url("../../../../viposidn.com/content/Bustelle_KR_Pink_sp/img/s5_product.png") no-repeat left top;
+  -webkit-background-size: contain;
+          background-size: contain;
+}
+
+.magazine_right_header {
+  position: relative;
+
+  padding: 40px 80px;
+
+  background: linear-gradient(to right, rgb(194, 194, 194) 1%, rgb(233, 233, 233) 29%, rgb(251, 251, 251) 50%, rgb(243, 243, 243) 76%, rgb(194, 194, 194) 100%);
+  -webkit-box-shadow: inset 0 -10px 115px rgba(0, 0, 0, 0.41);
+     -moz-box-shadow: inset 0 -10px 115px rgba(0, 0, 0, 0.41);
+          box-shadow: inset 0 -10px 115px rgba(0, 0, 0, 0.41);
+}
+
+.magazine_wrapper_right_header {
+  position: relative;
+  z-index: 2;
+
+  width: 490px;
+  overflow: hidden;
+
+  -webkit-border-radius: 0 0 45% 55%;
+     -moz-border-radius: 0 0 45% 55%;
+          border-radius: 0 0 45% 55%;
+}
+
+.magazine_wrapper_right_footer {
+  position: relative;
+  bottom: -20px;
+
+  width: 490px;
+  margin-top: -30%;
+  padding-top: 20%;
+  padding-left: 110px;
+
+  background: url("../../../../viposidn.com/content/Bustelle_KR_Pink_sp/img/m_r_bottom.jpg") no-repeat right bottom;
+  -webkit-background-size: cover;
+          background-size: cover;
+}
+
+.magazine_right_footer_title {
+  position: relative;
+  z-index: 9;
+
+  display: inline-block;
+  margin-top: 5px;
+  margin-right: -50%;
+  padding: 5px 50% 5px 10%;
+
+  font-weight: 700;
+  font-size: 24px;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  letter-spacing: 3px;
+
+  background: #c0b911;
+  -webkit-border-radius: 50px;
+     -moz-border-radius: 50px;
+          border-radius: 50px;
+}
+
+.m_jojoba {
+  position: absolute;
+  top: -70px;
+  right: 35%;
+
+  width: 120px;
+}
+
+.magazine_right_footer_text {
+  padding: 0 20px 100px 75px;
+}
+
+.magazine_right_footer_text strong {
+  font-weight: 700;
+  color: #f2921c;
+  text-transform: uppercase;
+}
+
+.magazine_right_footer_text p {
+  padding: 10px;
+}
+
+.s16_olive2 {
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+
+  width: 100px;
+}
+
+.s16_olive {
+  top: -10px;
+  right: 0;
+
+  -webkit-transform: rotate(45deg);
+     -moz-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+       -o-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.magazine_product {
+  top: 30px;
+  left: 28px;
+
+  width: 100px;
+}
+
+.magazine_girl_lt {
+  top: 30px;
+  left: 0;
+
+  width: 100px;
+}
+
+.wrapper_left_header_content {
+  position: relative;
+
+  padding: 40px;
+}
+
+.magazine_content_title {
+  padding: 5px 15px 5px 105px;
+
+  font-weight: 700;
+  font-size: 26px;
+  text-align: left;
+  color: #ffffff;
+  text-transform: uppercase;
+
+  background-color: #c4bc11;
+  -webkit-border-radius: 50px;
+     -moz-border-radius: 50px;
+          border-radius: 50px;
+}
+
+.magazine_content_text {
+  padding-left: 100px;
+
+  font-size: 14px;
+  text-align: left;
+  color: #000000;
+}
+
+.magazine_content_text p {
+  padding: 10px 0;
+}
+
+.magazine_content_text strong {
+  color: #f7921c;
+  text-transform: uppercase;
+}
+
+.magazine_left_footer {
+  position: relative;
+  bottom: -30px;
+
+  margin-top: -10%;
+  padding: 15% 25% 60px 0;
+
+  text-align: right;
+
+  background: radial-gradient(ellipse at 20% 45%, rgba(252, 252, 252, 1) 0%, rgba(224, 158, 92, 0.2) 60%),
+  radial-gradient(ellipse farthest-corner at 50% 35%, rgba(251, 242, 159, 0) 0%, rgba(247, 241, 190, 0.6) 82%, rgba(247, 242, 243, 0) 182%),
+  url("../../../../viposidn.com/content/Bustelle_KR_Pink_sp/img/m_girl_lb.jpg") no-repeat right bottom;
+  -webkit-background-size: cover;
+          background-size: cover;
+}
+
+.magazine_left_footer_title {
+  position: relative;
+
+  margin-bottom: 40px;
+  margin-left: -25%;
+  padding: 5px 30px 5px 25%;
+
+  font-size: 26px;
+  text-align: right;
+  color: #b0a815;
+  letter-spacing: -1px;
+  text-shadow: 1px 0 1px rgba(0, 0, 0, 0.41),
+  0 1px 1px rgba(0, 0, 0, 0.41),
+  -1px 0 1px rgba(0, 0, 0, 0.41),
+  0 -1px 1px rgba(0, 0, 0, 0.41),
+  0 0 3px #f7f1be;
+
+  -webkit-border-radius: 50px;
+     -moz-border-radius: 50px;
+          border-radius: 50px;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.46);
+     -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.46);
+          box-shadow: 0 0 5px rgba(0, 0, 0, 0.46);
+}
+
+.magazine_left_footer_title strong {
+  position: absolute;
+  right: 80px;
+  bottom: -30px;
+
+  display: block;
+
+  color: #141f3b;
+  text-shadow: 0 0 3px #f7f1be;
+}
+
+.magazine_left_footer_text {
+  padding: 10px;
+
+  font-size: 14px;
+  text-shadow: 0 0 3px #f7f1be;
+}
+
+.small_logo {
+  margin: 0;
+
+  font-size: 34px;
+  color: #ffffff;
+  letter-spacing: -4px;
+}
+
+.magazine_left_footer_plank {
+  position: relative;
+
+  margin-right: -10px;
+  padding: 10px 20px 20px 40px;
+
+  font-size: 16px;
+  color: #ffffff;
+
+  background: url("../../../../viposidn.com/content/Bustelle_KR_Pink_sp/img/m_plank_lb.png") no-repeat right top;
+  -webkit-background-size: 100% 100%;
+          background-size: 100% 100%;
+}
+
+.magazine_left_footer_plank strong {
+  text-transform: uppercase;
+}
+
+.m_creme {
+  position: absolute;
+  top: -10px;
+  left: 42%;
+
+  display: block;
+  width: 60px;
+  height: 60px;
+
+  background: url("../../../../viposidn.com/content/Bustelle_KR_Pink_sp/img/s11_creme.png") no-repeat left top;
+  -webkit-background-size: contain;
+          background-size: contain;
+}
+
+.section16_content {
+  text-align: center;
+}
+
+.section16_title {
+  font-size: 35px;
+  text-align: center;
+}
+
+.section16_title strong {
+  color: #b0a815;
+}
+
+.section16_logo {
+  color: #b0a815;
+}
+
+.s16_magazine {
+  position: relative;
+
+  width: 100%;
+  padding: 50px 0;
+}
+
+/* Slide */
+.carousel-indicators {  
+  bottom:15px;    
+  left:10px;  
+  width:auto; 
+  margin-left:0;
+  }
+  .carousel-indicators li {   
+  border-radius:0;    
+  width:8px;  
+  height:8px; 
+  background:#fff;
+  }
+  .carousel-indicators .active {  
+  width:10px; 
+  height:10px;    
+  background:#3276b1; 
+  border-color:#3276b1;
+}
+.section17 {
+  padding: 10px 0 100px;
+}
+
+.section17_title {
+  font-weight: 700;
+  font-size: 54px;
+  text-align: center;
+  color: black;
+}
+
+.section17_reviews {
+  display: table;
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.slide_fade_in {
+  transform: scale(1);
+  opacity: 1;
+
+  -webkit-transition: all 1.5s;
+     -moz-transition: all 1.5s;
+       -o-transition: all 1.5s;
+          transition: all 1.5s;
+}
+
+.slide_fade_out {
+  transform: scale(2);
+  opacity: 0;
+
+  -webkit-transition: all 0.5s;
+     -moz-transition: all 0.5s;
+       -o-transition: all 0.5s;
+          transition: all 0.5s;
+}
+
+.section17_reviews_item_wrapper {
+  display: table-cell;
+  box-sizing: border-box;
+  width: 50%;
+  padding: 0 10px;
+
+  vertical-align: top;
+}
+
+.section17_reviews_item {
+  position: relative;
+
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 20% !important;
+  margin: 0 20px 65px;
+  padding: 10px;
+
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(220, 233, 245, 0.41) 30%, rgba(224, 225, 237, 0.6) 50%, rgba(225, 231, 245, 0.47) 72%, rgba(255, 255, 255, 0) 100%);
+  border-right: 1px solid #ee901c;
+  border-bottom: 1px solid #ee901c;
+  border-left: 1px solid #ee901c;
+  -webkit-border-radius: 30px;
+     -moz-border-radius: 30px;
+          border-radius: 30px;
+  -webkit-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+     -moz-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+          box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+.section17_reviews_avatar {
+  float: left;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+
+  text-align: center;
+
+  background: #dad9d9;
+  border: 4px solid white;
+  -webkit-border-radius: 28px;
+     -moz-border-radius: 28px;
+          border-radius: 28px;
+  -webkit-box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.59);
+     -moz-box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.59);
+          box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.59);
+}
+
+.section17_review_content {
+  float: left;
+  width: 300px;
+  margin-left: 15px;
+}
+
+.section17_review_content_header {
+  height: 30px;
+  margin-bottom: 10px;
+
+  font-size: 17px;
+  line-height: 30px;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+.section17_reviews_admin {
+  float: left;
+  padding-right: 30px;
+
+  font-size: 24px;
+  color: #ee901c;
+
+  background: url("../../../../viposidn.com/content/Bustelle_KR_Pink_sp/img/rev_hand.png") no-repeat right center;
+  -webkit-background-size: 19px;
+          background-size: 19px;
+  border-top: 1px solid #b0a815;
+  border-bottom: 1px solid #b0a815;
+}
+
+.section17_reviews_user {
+  background: url("../../../../viposidn.com/content/Bustelle_KR_Pink_sp/img/rev_speech.png") no-repeat right center;
+}
+
+.section17_reviews_date {
+  float: right;
+
+  border-top: 1px solid #b0a815;
+  border-bottom: 1px solid #b0a815;
+}
+
+.section17_reviews_day {
+  display: inline-block;
+  margin-right: 10px;
+  /*float:                   left;*/
+  padding-left: 20px;
+
+  background: url("../../../../viposidn.com/content/Bustelle_KR_Pink_sp/img/rev_calendar.png") no-repeat left center;
+  -webkit-background-size: 13px;
+          background-size: 13px;
+}
+
+.section17_reviews_time {
+  display: inline-block;
+  /*float:                   right;*/
+  padding-left: 20px;
+
+  background: url("../../../../viposidn.com/content/Bustelle_KR_Pink_sp/img/rev_clock.png") no-repeat left center;
+  -webkit-background-size: 16px;
+          background-size: 16px;
+}
+
+.section17_admin_text {
+  float: left;
+
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.section17_user_text {
+  font-size: 16px;
+  line-height: 24px;
+  color: #010101;
+}
+
+.reviews_foto {
+  display: inline-block;
+  width: 45%;
+  max-height: 250px;
+  margin: 10px 1%;
+
+  border: 2px solid #d9d9d9;
+}
+
+.section17_admin_text strong {
+  color: #b0a815;
+}
+
+.section17_user_text strong {
+  color: #ed8d19;
+}
+
+.section17_user_text b {
+  color: #ed8d19;
+  text-transform: uppercase;
+}
+
+.review_admin {
+  width: auto;
+  height: 90%;
+  margin-top: 3px;
+}
+
+.section17_reviews_header {
+  min-height: 150px;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+}
+
+.section17_reviews_header_user {
+  margin-bottom: 0;
+}
+
+.section17_reviews_shadow {
+  top: -30px;
+  left: -13px;
+
+  width: 440px;
+
+  -webkit-transform: scaleX(-1);
+     -moz-transform: scaleX(-1);
+      -ms-transform: scaleX(-1);
+       -o-transform: scaleX(-1);
+          transform: scaleX(-1);
+  opacity: 0.5;
+}
+
+.review_user {
+  width: 100%;
+}
+
+.section17_leaf3 {
+  top: 90px;
+  left: 910px;
+}
+
+.s17_olive3 {
+  position: absolute;
+  bottom: 10px;
+  left: -40px;
+}
+
+.section17_leaf4 {
+  top: 530px;
+  left: 610px;
+  z-index: 10;
+
+  -moz-transform: scale(0.4) rotate(85deg);
+   -ms-transform: scale(0.4) rotate(85deg);
+    -o-transform: scale(0.4) rotate(85deg);
+       transform: scale(0.4) rotate(85deg);
+}
+
+.section17_leaf2 {
+  top: 780px;
+  left: 450px;
+
+  -moz-transform: scale(0.5) rotate(45deg);
+   -ms-transform: scale(0.5) rotate(45deg);
+    -o-transform: scale(0.5) rotate(45deg);
+       transform: scale(0.5) rotate(45deg);
+}
+
+.s17_olive,
+.s17_olive2 {
+  position: absolute;
+  left: -20%;
+}
+
+.s17_olive2 {
+  bottom: -80px;
+  left: 200px;
+}
+
+.s17_creme {
+  position: absolute;
+  bottom: -260px;
+  left: -50%;
+
+  -webkit-transform: scale(0.3);
+     -moz-transform: scale(0.3);
+      -ms-transform: scale(0.3);
+       -o-transform: scale(0.3);
+          transform: scale(0.3);
+}
+
+.section18 {
+  z-index: 0;
+
+  margin-top: -300px;
+  padding: 300px 0 100px;
+
+  background: radial-gradient(circle closest-side at 80% 60%, rgba(243, 242, 220, 1) 40%, rgba(243, 242, 220, 0) 130%),
+  radial-gradient(circle closest-side at 50% 90%, rgba(242, 35, 41, 0.51) 0%, rgba(243, 242, 220, 0) 390%);
+}
+
+.section18_title {
+  max-width: 570px;
+  margin: 0 auto;
+  font-size: 36px;
+  line-height: 45px;
+  text-transform: uppercase;
+}
+
+.section18_logo {
+  color:orange;
+  display: inline-block;
+
+  font-size: 96px;
+  text-shadow: 1px 0 0 #ffffff,
+  0 1px 0 #ffffff,
+  -1px 0 0 #ffffff,
+  0 -1px 0 #ffffff,
+  3px 0 5px #ffffff,
+  0 3px 5px #ffffff,
+  -3px 0 5px #ffffff,
+  0 -3px 5px #ffffff,
+  5px 0 9px #ffffff,
+  0 5px 9px #ffffff,
+  -5px 0 9px #ffffff,
+  0 -5px 9px #ffffff;
+}
+
+.section18_title strong {
+  font-size: 40px;
+  line-height: 45px;
+  color: #df2245;
+}
+
+.section18_title_wrapper {
+  position: relative;
+  z-index: -1;
+
+  padding: 20px;
+
+  text-align: center;
+
+  -webkit-border-radius: 100px;
+     -moz-border-radius: 100px;
+          border-radius: 100px;
+  -webkit-box-shadow: inset -5px -5px 10px rgba(0, 0, 0, 0.1);
+     -moz-box-shadow: inset -5px -5px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: inset -5px -5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.section18_title_shadow {
+  top: 21px;
+  left: 110px;
+
+  width: 80%;
+}
+
+.section18_form_aside {
+  position: absolute;
+  top: 10px;
+  left: -390px;
+  z-index: -1;
+
+  width: 100%;
+
+  text-align: right;
+}
+
+.section18_price_wrapper {
+  display: inline-block;
+  margin-top: -20px;
+  padding: 20px 50px 20px 30px;
+
+  text-align: right;
+
+  -webkit-border-radius: 50px 0 0 50px;
+     -moz-border-radius: 50px 0 0 50px;
+          border-radius: 50px 0 0 50px;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+     -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.section18_form_timer {
+  position: relative;
+  z-index: 3;
+
+  width: 100%;
+  height: 190px;
+
+  background: url("../../../../viposidn.com/content/Bustelle_KR_Pink_sp/img/footer_plank.png") no-repeat left top;
+  -webkit-background-size: cover;
+          background-size: cover;
+}
+
+.section18_form {
+  position: relative;
+
+  width: 400px;
+  margin-top: 30px;
+  margin-left: 580px;
+  padding: 10px;
+
+  background: #ed8d19;
+  border: 1px solid #ffffff;
+  -webkit-border-radius: 15px;
+     -moz-border-radius: 15px;
+          border-radius: 15px;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+     -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.section18_form_wrapper {
+  position: relative;
+  z-index: 1;
+
+  padding: 40px 40px 20px;
+
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  -webkit-border-radius: 10px;
+     -moz-border-radius: 10px;
+          border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);
+     -moz-box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);
+          box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.section18_button_wrapper {
+  margin-top: 10px;
+}
+
+.section18_form_title {
+  padding: 20px 0;
+  font-weight: 700;
+  font-size: 35px;
+  text-align: center;
+  line-height: 120%;
+}
+
+.form_input {
+  width: 100%;
+  height: 50px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+
+  line-height: 200%;
+
+  border: 1px solid #b0a815;
+  -webkit-border-radius: 10px;
+     -moz-border-radius: 10px;
+          border-radius: 10px;
+  outline: none;
+}
+
+.section_form select {
+  background: url("../../../../viposidn.com/content/Bustelle_KR_Pink_sp/img/custom_select2.png") no-repeat 97% center;
+  outline: none;
+
+  -webkit-appearance: none;
+     -moz-appearance: none;
+      -ms-appearance: none !important;
+          appearance: none !important;
+}
+
+.s18_jojoba {
+  position: absolute;
+  top: 290px;
+  left: 0;
+}
+
+.s18_jojoba2 {
+  position: absolute;
+  top: 130px;
+  left: -330px;
+
+  -webkit-transform: rotate(-60deg);
+     -moz-transform: rotate(-60deg);
+      -ms-transform: rotate(-60deg);
+       -o-transform: rotate(-60deg);
+          transform: rotate(-60deg);
+}
+
+.s18_girl {
+  position: absolute;
+  top: -420px;
+  left: -290px;
+  z-index: -10;
+}
+
+.s18_product {
+  position: absolute;
+  top: 415px;
+  left: 80px;
+  z-index: 10;
+  width: 300px;
+}
+
+.section18_leaf1 {
+  position: absolute;
+  top: -80px;
+  left: 0;
+}
+
+.section18_leaf7 {
+  top: 560px;
+  left: 800px;
+
+  -webkit-transform: rotate(145deg);
+     -moz-transform: rotate(145deg);
+      -ms-transform: rotate(145deg);
+       -o-transform: rotate(145deg);
+          transform: rotate(145deg);
+}
+
+.section18_leaf5 {
+  top: 350px;
+  left: 170px;
+
+  -moz-transform: scale(0.5) rotate(15deg);
+   -ms-transform: scale(0.5) rotate(15deg);
+    -o-transform: scale(0.5) rotate(15deg);
+       transform: scale(0.5) rotate(15deg);
+}
+
+.section18_leaf4 {
+  top: 610px;
+  left: 610px;
+
+  -moz-transform: scale(0.7) rotate(85deg);
+   -ms-transform: scale(0.7) rotate(85deg);
+    -o-transform: scale(0.7) rotate(85deg);
+       transform: scale(0.7) rotate(85deg);
+}
+
+.s18_creme {
+  position: absolute;
+  top: -90px;
+  left: 230px;
+  z-index: -2;
+}
+
+.s18_olive_bottom {
+  position: absolute;
+  right: -400px;
+  bottom: -210px;
+}
+
+.s18_olive {
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+
+.s18_creme2 {
+  position: absolute;
+  top: 200px;
+  left: 680px;
+
+  -webkit-transform: rotate(-15deg);
+     -moz-transform: rotate(-15deg);
+      -ms-transform: rotate(-15deg);
+       -o-transform: rotate(-15deg);
+          transform: rotate(-15deg);
+}
+
+.slider_item,
+.slider_week_text {
+  -webkit-transform: scale(1.3);
+     -moz-transform: scale(1.3);
+      -ms-transform: scale(1.3);
+       -o-transform: scale(1.3);
+          transform: scale(1.3);
+  opacity: 0;
+
+  -webkit-transition: all 2.5s;
+     -moz-transition: all 2.5s;
+      -ms-transition: all 2.5s;
+       -o-transition: all 2.5s;
+          transition: all 2.5s;
+}
+
+.active_slide,
+.active_week {
+  -webkit-transform: scale(1);
+     -moz-transform: scale(1);
+      -ms-transform: scale(1);
+       -o-transform: scale(1);
+          transform: scale(1);
+  opacity: 1;
+}
+
+.form_timer_text {
+  margin-bottom: -27px;
+  padding-top: 10px;
+  padding-right: 37px;
+  padding-bottom: 10px;
+
+  font-weight: 700;
+  font-size: 32px;
+  color: #efecc7;
+  text-shadow: 0 0 10px #000000;
+}
+
+/*important MEDIA*/
+
+@media screen and (min-width: 767px) {
+  
+  .section10_title {
+    font-size: 35px
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .section2 {
+    background-position-x: -20%;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .header_footer {
+    margin-left: 25%;
+  }
+
+  .section2 {
+    background-position-x: -40%;
+  }
+
+  .section13_left {
+    font-size: 70px;
+    margin-right: -110px;
+    margin-left: -80px;
+
+    -webkit-transform: scale(0.6);
+       -moz-transform: scale(0.6);
+        -ms-transform: scale(0.6);
+         -o-transform: scale(0.6);
+            transform: scale(0.6);
+  }
+
+  .section13_right {
+    margin-left: 320px;
+  }
+
+  .section13_footer_text {
+    margin-left: 25%;
+
+    font-size: 18px;
+  }
+}
+
+
+
+@media screen and (max-width: 1200px) {
+  .section2 {
+    background-position-x: -50%;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .section2 {
+    background-position-x: -80%;
+  }
+}
+
+/*mobile*/
+.shield_product {
+  height: 160px;
+}
+
+@media screen and (max-width: 991px) {
+  .section3 {
+    margin-top: 50px;
+  }
+
+  .section5_plank {
+    margin-right: 0px;
+  }
+
+  .s5_girl {
+    bottom: -115px;
+  }
+
+  .section3_footer_img {
+    display: none;
+  }
+  .shield_product, .s18_jojoba, .s18_product  {
+    display: none;
+  }
+
+  .section3_footer_plank {
+    font-size: 32px;
+  }
+  .section3_footer {
+    margin-left: 0px !important;
+  }
+
+  .section15_plank_text strong {
+    font-size: 23px;
+  }
+
+  .section17_reviews,
+  .section17_reviews_item_wrapper,
+  .section17_reviews_item {
+    display: block;
+  }
+
+  .section17_reviews_item_wrapper {
+    box-sizing: content-box;
+    width: 100%;
+  }
+
+  .section17_reviews {
+    width: 340px;
+    margin: 0 auto;
+  }
+
+  .section17_reviews_item {
+    position: relative;
+
+    float: none;
+    width: 300px !important;
+    min-height: inherit;
+    margin: 0 auto 20px;
+    padding: 5px;
+
+    background: #ffffff;
+    border: 1px solid #ee901c;
+  }
+
+  .s18_jojoba2 {
+    display: none;
+  }
+
+  .s18_product {
+    top: 190px;
+    left: -165px;
+    z-index: 9;
+
+    width: 130px;
+  }
+
+  .ingredients_item_text {
+    padding-bottom: 20px;
+
+    border-bottom: 1px solid chocolate;
+  }
+
+  body,
+  .title {
+    font-family: Roboto, sans-serif;
+  }
+
+  .wrapper {
+    width: auto;
+    max-width: 768px;
+  }
+
+  .section2 {
+    background-position-x: -80%;
+  }
+
+  .section1_top_plank {
+    display: none;
+  }
+
+  .olive {
+    display: none;
+  }
+
+  .section1 {
+    text-align: center;
+  }
+
+  .logo_text {
+    display: block;
+    float: none;
+    min-width: inherit;
+
+    font-size: 54px;
+  }
+
+  .title {
+    text-align: center;
+  }
+
+  .logo_text b {
+    letter-spacing: -5px;
+  }
+
+  .header_content_title {
+    font-size: 46px;
+    line-height: 1.1;
+  }
+
+  .effect_plank {
+    display: inline-block;
+    padding: 10px;
+
+    background: #afa815;
+  }
+
+  .line_1,
+  .line_3 {
+    -webkit-transform: rotate(270deg);
+       -moz-transform: rotate(270deg);
+        -ms-transform: rotate(270deg);
+         -o-transform: rotate(270deg);
+            transform: rotate(270deg);
+    opacity: 0.5;
+  }
+
+  .line_1 {
+    top: 170px;
+    left: -135px;
+
+    width: 50%;
+  }
+
+  .line_2,
+  .line_1,
+  .line_3 {
+    display: none;
+  }
+
+  .line_3 {
+    left: -90px;
+  }
+
+  .olives_2 {
+    display: none;
+  }
+
+  .effect_list {
+    max-width: 400px;
+    margin: 30px auto;
+  }
+
+  .effect_item {
+    margin-bottom: 10px;
+
+    text-align: left;
+  }
+
+  .effect_item:nth-child(2) {
+    margin-left: 0;
+  }
+
+  .effect_item:nth-child(3) {
+    margin-left: 0;
+  }
+
+  .s1_girl {
+    top: 310px;
+    left: 125px;
+
+    width: 310px;
+
+    background: none;
+  }
+
+  .top_girl {
+    top: -640px;
+    right: 70px;
+    z-index: 0;
+  }
+
+  .header_footer {
+    width: auto;
+    margin: 30px 0 30px 40%;
+
+    text-align: center;
+  }
+
+  .result_text {
+    width: auto;
+    max-width: 100%;
+    min-height: inherit;
+    margin: 0;
+    padding: 50px;
+
+    text-align: center;
+  }
+
+  .effect_item_text {
+    max-width: 280px;
+  }
+
+  .header_footer_plank {
+    position: relative;
+    z-index: 5;
+
+    width: 100%;
+    margin-top: -90px;
+    padding: 5px 30% 5px 20px;
+
+    background: rgba(249, 181, 39, 0.56);
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.53);
+       -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.53);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.53);
+  }
+
+  .header_footer_plank_left {
+    margin-top: 110px;
+
+    background: rgba(253, 235, 192, 0.5);
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.53);
+       -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.53);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.53);
+  }
+
+  .top_glow {
+    right: -115px;
+    bottom: -50px;
+    z-index: 1;
+  }
+
+  .section1_button {
+    right: 20px;
+    z-index: 3;
+    margin-top: -50px;
+  }
+
+  .product {
+    position: relative;
+    top: 35px;
+    right: 0;
+    z-index: 6;
+
+    max-width: 200px;
+    max-height: 260px;
+    margin-top: -110px;
+  }
+
+  .promo_text,
+  .price {
+    float: none;
+    max-width: 100%;
+    padding: 10px 0;
+  }
+
+  .old_price_text {
+    top: -10px;
+  }
+
+  .shadow_clip {
+    display: none;
+  }
+
+  .section2 {
+    display: none;
+  }
+
+  section,
+  .section1,
+  .section2,
+  .section3,
+  .section4,
+  .section5,
+  .section6,
+  .section7,
+  .section8,
+  .section9,
+  .section10,
+  .section11,
+  .section12,
+  .section13,
+  .section14,
+  .section15,
+  .section16,
+  .section17,
+  .section18 {
+    padding: 10px 0;
+  }
+
+  .risks_item_wrapper {
+    float: none;
+    width: 100%;
+    min-height: inherit;
+    margin-top: 20px;
+  }
+
+  .risks_circle,
+  .risks_item_background,
+  .cross {
+    display: none;
+  }
+
+  .risks_item_plank {
+    width: 75%;
+    min-height: inherit;
+    padding: 10px 15px 10px 50px;
+
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.63);
+
+    border: 1px solid #5a321f;
+    -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+       -moz-box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  }
+
+  .risks_item_wrapper:nth-child(1) .risks_item_plank,
+  .risks_item_wrapper:nth-child(3) .risks_item_plank,
+  .risks_item_wrapper:nth-child(5) .risks_item_plank {
+    padding-right: 40px;
+    padding-left: 50px;
+
+    text-align: center;
+
+    background: linear-gradient(to left, rgba(228, 153, 118, 0.93) 0%, rgb(154, 87, 56) 100%);
+  }
+
+  .risks_item_wrapper:nth-child(2) .risks_item_plank,
+  .risks_item_wrapper:nth-child(4) .risks_item_plank,
+  .risks_item_wrapper:nth-child(6) .risks_item_plank {
+    padding-right: 50px;
+    padding-left: 40px;
+
+    text-align: center;
+
+    background: linear-gradient(to right, rgba(228, 153, 118, 0.93) 0%, rgb(154, 87, 56) 100%);
+  }
+
+  .section6 {
+    margin-top: 0;
+  }
+
+  .checks_wrapper {
+    border-bottom: 1px solid #f6d351;
+  }
+
+  .section6_content_images,
+  .section6_elements {
+    display: none;
+  }
+
+  .section6_title {
+    padding: 30px;
+  }
+
+  .element_checks {
+    float: none;
+    width: auto;
+    margin-right: 0;
+    margin-left: 40%;
+    padding-right: 15px;
+  }
+
+  .check {
+    display: none;
+  }
+
+  .s6_girl {
+    left: 0;
+  }
+
+  .s6_leaf {
+    display: none;
+  }
+
+  .section7_bg_images,
+  .section7_front_images {
+    display: none;
+  }
+
+  .s7_olive {
+    display: none;
+  }
+
+  .section7_title {
+    padding: 30px 15px;
+  }
+
+  .section7_title strong {
+    display: block;
+  }
+
+  .section7_steps {
+    max-width: 560px;
+    margin: 0 auto;
+    padding: 10px 40px;
+  }
+
+  .section7_steps_item {
+    padding: 15px 0;
+  }
+
+  .section7_steps_item:nth-child(2),
+  .section7_steps_item:nth-child(3) {
+    margin-left: 0;
+  }
+
+  .section7_steps_item:nth-child(2) .steps_item_left {
+    float: right;
+    margin-right: 0;
+    margin-left: 30px;
+  }
+
+  .section7_steps_item:nth-child(2) .steps_plank {
+    left: -130px;
+
+    padding: 5px 80px 10px 15px;
+
+    -webkit-border-radius: 50px 0 0 50px;
+       -moz-border-radius: 50px 0 0 50px;
+            border-radius: 50px 0 0 50px;
+  }
+
+  .section7_steps_item:nth-child(2) .steps_item_text {
+    float: right;
+
+    text-align: right;
+  }
+
+  .steps_item_text {
+    max-width: 260px;
+  }
+
+  .steps_plank {
+    left: 59px;
+  }
+
+  .s7_arrow {
+    display: none;
+  }
+
+  .steps_bg_circle {
+    top: 85%;
+    left: 50%;
+
+    width: 120px;
+    height: 120px;
+    margin-left: -60px;
+  }
+
+  .steps_img_circle {
+    width: 100px;
+    height: 100px;
+  }
+
+  .steps_img1,
+  .steps_img2,
+  .steps_img3 {
+    -webkit-background-size: contain;
+            background-size: contain;
+  }
+
+  .section8_images {
+    display: none;
+  }
+
+  .section8_content {
+    padding: 10px 0;
+  }
+
+  .section9,
+  .section10,
+  .section11_images,
+  .s11_creme {
+    display: none;
+  }
+
+  .ingredients_item {
+    float: none;
+    width: auto;
+    max-width: 450px;
+    margin: 0 auto;
+  }
+
+  .section8_plank {
+    display: none;
+  }
+
+  .s8_olive {
+    display: none;
+  }
+
+  .ingredients {
+    margin: 0 auto;
+    padding-bottom: 50px;
+  }
+
+  .section8_footer {
+    margin-left: 20%;
+  }
+
+  .s8_jojoba {
+    display: none;
+  }
+
+  .expert_wrapper {
+    padding-top: 0;
+  }
+
+  .section12,
+  .section16,
+  .section13_leafs,
+  .section13_footer,
+  .section14_title,
+  .section14_plank,
+  .section15_girls_bg,
+  .section15_leafs,
+  .s15_creme,
+  .section18_images,
+  .s18_olive,
+  .section17_images,
+  .section17_images2,
+  .expert_olive,
+  .s13_creme,
+  .s13_olive,
+  .s15_olive,
+  .section14_images,
+  .expert_aside_overlap {
+    display: none;
+  }
+
+  .section11 {
+    background: url("../../../../viposidn.com/content/Bustelle_KR_Pink_sp/img/s11_bg.png") no-repeat 95% 80%;
+  }
+
+  .expert_aside {
+    position: relative;
+
+    margin: 0 auto;
+  }
+
+  .expert_content {
+    position: relative;
+
+    width: auto;
+    margin: 0;
+    padding: 10px;
+
+    background: none;
+  }
+
+  .overlap_clipping {
+    position: absolute;
+    top: 10px;
+    left: 0;
+  }
+
+  .expert_wrapper {
+    width: 425px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+  }
+
+  .expert_aside_text {
+    position: relative;
+    top: 0;
+    left: 0;
+
+    width: auto;
+    margin: -80px auto 0;
+    padding: 10px 30px;
+
+    text-align: center;
+
+    -webkit-border-radius: 100px;
+       -moz-border-radius: 100px;
+            border-radius: 100px;
+  }
+
+  .expert_title {
+    padding-bottom: 30px;
+    padding-left: 0;
+
+    font-size: 44px;
+    text-align: center;
+  }
+
+  .section13,
+  .section14,
+  .section18 {
+    margin: 0;
+  }
+
+  .section13_content {
+    max-width: 425px;
+    padding-top: 10px;
+  }
+
+  .section13_right {
+    width: auto;
+    margin-left: 0;
+  }
+
+  .section13_left {
+    position: relative;
+    top: 0;
+    left: 0;
+
+    float: none;
+    width: auto;
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 0;
+
+    font-size: 56px;
+    text-align: right;
+  }
+
+  .s13_girl,
+  .step_arrow3,
+  .s13_bg_girl,
+  .section15_item_top {
+    display: none;
+  }
+
+  .section15_girls_item:nth-child(2) {
+    margin-top: 0;
+  }
+
+  .section15_girls_item {
+    float: none;
+    width: 300px;
+    margin: 0 auto 20px;
+    padding: 0;
+
+    -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.32);
+       -moz-box-shadow: 0 0 20px rgba(0, 0, 0, 0.32);
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.32);
+  }
+
+  .section15_item_plank {
+    min-width: inherit;
+    min-height: inherit;
+    padding: 40px;
+
+    background: radial-gradient(ellipse farthest-corner at 50% 35%, rgba(251, 63, 129, 1) 0%, rgba(226, 37, 75, 1) 82%, rgba(226, 37, 75, 1) 182%);
+  }
+
+  .section15_item_plank2 {
+    background: radial-gradient(ellipse farthest-corner at 50% 35%, rgb(184, 177, 23) 0%, rgb(176, 168, 21) 82%, rgb(176, 168, 21) 182%);
+  }
+
+  .section15_item_plank3 {
+    background: radial-gradient(ellipse farthest-corner at 50% 35%, rgb(251, 205, 43) 0%, rgb(247, 146, 28) 82%, rgb(247, 146, 28) 182%);
+  }
+
+  .section14_button {
+    z-index: 13;
+
+    margin: 30px auto;
+  }
+
+  .section14_order {
+    text-align: center;
+  }
+
+  .section15 {
+    margin-top: 0;
+  }
+
+  .section15_girls {
+    padding: 30px 0;
+
+    background: radial-gradient(circle closest-side at 50% 47%, rgba(242, 137, 135, 0.58) 0%, rgba(243, 242, 220, 0) 90%);
+  }
+
+  .section17 {
+    background: radial-gradient(ellipse farthest-corner at 50% 35%, rgba(184, 177, 23, 0.02) 0%, rgba(176, 168, 21, 0.07) 82%, rgba(176, 168, 21, 0.08) 182%);
+  }
+
+  .section18_form {
+    width: auto;
+    margin-top: 0;
+    margin-left: 0;
+
+    background: none;
+    border: none;
+    -webkit-box-shadow: none;
+       -moz-box-shadow: none;
+            box-shadow: none;
+  }
+
+  .section18_form_aside {
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: inherit;
+
+    width: 50%;
+    margin-left: 40%;
+
+    text-align: center;
+  }
+
+  .section18_form_wrapper {
+    position: relative;
+    z-index: 0;
+
+    width: 400px;
+    margin: 0 auto;
+  }
+
+  .section18_title_wrapper {
+    position: relative;
+    z-index: 10;
+
+    margin-right: 15%;
+    padding: 10px;
+
+    text-align: right;
+    text-shadow: 3px 0 1px #ffffff,
+    0 3px 1px #ffffff,
+    -3px 0 1px #ffffff,
+    0 -3px 1px #ffffff;
+
+    border: none;
+    -webkit-box-shadow: none;
+       -moz-box-shadow: none;
+            box-shadow: none;
+  }
+
+  .section18_title {
+    max-width: 570px;
+
+    font-size: 26px;
+    line-height: 1;
+    text-align: right;
+  }
+
+  .section18_title strong {
+    font-size: 26px;
+    line-height: 1;
+  }
+
+  .s18_jojoba {
+    top: 260px;
+    left: 0;
+    z-index: 12;
+
+    width: 230px;
+  }
+
+  .section17_reviews {
+    width: 320px;
+    margin: 0 auto;
+  }
+
+  .s17_olive,
+  .s17_olive2 {
+    display: none;
+  }
+
+  .section17_title {
+    padding: 30px 0;
+
+    font-size: 28px;
+    text-transform: uppercase;
+  }
+
+  .section17_reviews_header {
+    min-height: inherit;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+
+    border-bottom: 1px dashed #ee901c;
+  }
+
+  .section17_reviews_header_user {
+    padding-top: 10px;
+
+    border: none;
+  }
+
+  .section17_reviews_avatar {
+    width: 80px;
+    height: 80px;
+  }
+
+  .section17_review_content {
+    width: 200px;
+    margin-left: 5px;
+  }
+
+  .section17_reviews_admin {
+    max-width: 90px;
+
+    font-size: 16px;
+  }
+
+  .section17_review_content_header {
+    padding-right: 10px;
+
+    font-size: 12px;
+  }
+
+  .section17_admin_text {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .s18_girl {
+    position: absolute;
+    top: -100px;
+    left: -160px;
+    z-index: 1;
+
+    height: 490px;
+  }
+
+  .section18_form_timer {
+    min-width: 240px;
+    padding: 10px;
+
+    background: radial-gradient(ellipse farthest-corner at 50% 50%, rgb(211, 203, 25) 0%, rgb(176, 168, 21) 82%, rgb(176, 168, 21) 182%);
+    -webkit-border-radius: 10px;
+       -moz-border-radius: 10px;
+            border-radius: 10px;
+  }
+
+  .form_timer_text {
+    padding: 0 0 50px 0;
+  }
+
+  .section18_price_wrapper {
+    position: relative;
+    z-index: 11;
+
+    width: 230%;
+    margin-bottom: 110px;
+    padding-right: 140%;
+
+    background: radial-gradient(ellipse farthest-corner at 50% 50%, rgb(244, 183, 34) 0%, rgb(237, 141, 25) 82%, rgb(237, 141, 25) 182%);
+    /*width:                 auto;*/
+    -webkit-border-radius: 100px;
+       -moz-border-radius: 100px;
+            border-radius: 100px;
+  }
+
+  .section18_content_wrapper {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .wrapper {
+    width: auto;
+    max-width: 100%;
+  }
+
+  .header_content_title {
+    font-size: 28px;
+    line-height: 1.1;
+  }
+
+  .effect_list {
+    max-width: 300px;
+    margin: 30px auto;
+  }
+
+  .effect_item_text {
+    max-width: 210px;
+  }
+
+  .header_footer_plank_left {
+    margin-right: 10%;
+  }
+
+  .top_girl {
+    right: 25%;
+  }
+
+  .s1_girl {
+    top: 370px;
+    left: 105px;
+  }
+
+  .section3_title {
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 1.1;
+    text-align: center;
+  }
+
+  .header_footer_plank {
+    padding-right: 15px;
+  }
+
+  .result_text {
+    padding: 10px;
+
+    font-size: 20px;
+  }
+
+  .section5_content{
+    font-size: 20px;
+  }
+
+  .section6_title,
+  .section7_title,
+  .section8_tittle {
+    font-size: 28px;
+  }
+
+  .ingredients {
+    max-width: 300px;
+    padding-bottom: 30px;;
+  }
+
+  .ingredients_item_image {
+    width: 80px;
+    height: 80px;
+  }
+
+  .ingredients_item_content {
+    margin-left: 90px;
+  }
+
+  .ingredients_item_title {
+    font-size: 20px;
+  }
+
+  .ingredients_item_text {
+    font-size: 16px;
+  }
+
+  .section8_footer,
+  .section8_order {
+    margin-left: 0;
+  }
+
+  .section8_order {
+    text-align: center;
+
+    -webkit-border-radius: 100px;
+       -moz-border-radius: 100px;
+            border-radius: 100px;
+  }
+
+  .section5_button {
+    font-size: 22px;
+  }
+
+  .section8_tittle strong {
+    font-size: 32px;
+  }
+
+  .expert_aside,
+  .expert_aside_overlap {
+    width: 250px;
+    height: 250px;
+  }
+
+  .expert_aside_overlap {
+    left: 210px;
+  }
+
+  .expert {
+    width: 100%;
+  }
+
+  .expert_title {
+    font-size: 28px;
+  }
+
+  .expert_wrapper {
+    width: 300px;
+    margin-top: -100px;
+  }
+
+  .expert_aside {
+    margin-top: 100px;
+  }
+
+  .section13_left {
+    margin-right: 0;
+    margin-left: auto;
+  }
+
+  .section13_right {
+    float: none;
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  .step_arrow {
+    display: none;
+  }
+
+  .section13_steps_item:nth-child(3) .section13_steps_right {
+    padding-top: 0;
+  }
+
+  .section13_steps_item:nth-child(3) .step_count {
+    top: 0;
+    left: 0;
+  }
+
+  .steps_item_circle {
+    width: 103px;
+    height: 103px;
+
+    border: 2px solid #f7921c;
+  }
+
+  .step_count {
+    width: 40px;
+    height: 40px;
+
+    font-size: 16px;
+  }
+
+  .section13_steps_right {
+    margin-left: 110px;
+  }
+
+  .section13_steps_item:nth-child(1) .section13_steps_right {
+    padding-top: 0;
+  }
+
+  .section13_steps_item:nth-child(2) {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .steps_item_title {
+    font-size: 20px;
+  }
+
+  .steps_item_text {
+    max-width: 200px;
+
+    font-size: 14px;
+  }
+
+  .steps_item_text strong {
+    font-size: 14px;
+  }
+
+  .product {
+    right: 75px;
+  }
+
+  .checks_item_text {
+    font-size: 14px;
+  }
+
+  .element_checks {
+    margin-left: 20%;
+  }
+
+  .s6_girl {
+    left: -50px;
+
+    width: 220px;
+  }
+
+  .section18_form_wrapper {
+    position: relative;
+    z-index: 2;
+
+    width: auto;
+    max-width: 400px;
+    margin: 0 auto;
+
+    -webkit-box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+       -moz-box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+            box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .checks_item:last-child {
+    padding-bottom: 75px;
+  }
+}
+
+@media screen and (max-width: 496px) {
+  
+  .section10_title {
+    font-size: 30px;
+  }
+}
+
+.nntn {
+  font-size: 100%;
+  color:black;
+}
+
+@media screen and (max-width: 600px) {
+  .section4_header_title {
+    font-weight: 300;
+    font-size: 35px;
+    line-height: 1.1;
+    text-align: center;
+  }
+
+  .section4_header_title strong {
+    color: #f7921c;
+    font-weight: 700;
+  }
+
+  .slider_item, .section4_title  {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 365px) {
+  .nntn {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 391px) {
+  .risks_item_plank_text {
+    font-size: 82%;
+  }
+
+
+}
+
+@media screen and (max-width: 420px) {
+  .header_footer_plank_left {
+    margin-right: 0;
+  }
+
+  .section13_left {
+    font-size: 45px;
+  }
+
+
+  .section7_steps {
+    padding: 10px 10px;
+  }
+
+  .steps_item_text {
+    max-width: 170px;
+  }
+
+  .section18_title_wrapper {
+    margin-right: 0;
+  }
+
+  .section18_form_aside {
+    width: 60%;
+  }
+
+  .price {
+    font-size: 30px;
+  }
+
+  .old_price_text {
+    font-size: 20px;
+  }
+
+  .s18_product {
+    left: -150px;
+  }
+
+  .section18_form_timer {
+    padding: 10px 30% 10px 10px;
+  }
+
+  .risks_item_plank {
+    width: 95%;
+  }
+
+  .risks_item_wrapper:nth-child(1) .risks_item_plank,
+  .risks_item_wrapper:nth-child(3) .risks_item_plank,
+  .risks_item_wrapper:nth-child(5) .risks_item_plank {
+
+    text-align: center;
+
+    background: linear-gradient(to left, rgba(228, 153, 118, 0.93) 0%, rgb(154, 87, 56) 100%);
+  }
+
+  .risks_item_wrapper:nth-child(2) .risks_item_plank,
+  .risks_item_wrapper:nth-child(4) .risks_item_plank,
+  .risks_item_wrapper:nth-child(6) .risks_item_plank {
+
+    text-align: center;
+
+    background: linear-gradient(to right, rgba(228, 153, 118, 0.93) 0%, rgb(154, 87, 56) 100%);
+  }
+
+  .section18_form_wrapper {
+    padding: 40px 20px 20px;
+  }
+}
+@media(min-width:425px) and (max-width:991px){
+  .section18_price_wrapper{
+    padding-right:132%;
+  }
+  .price{
+    font-size:40px;
+  }
+
+}
